@@ -51,7 +51,7 @@ def fetchGraphic(link):
     for i in body.findAll('iframe'):
         indexURL = i.attrs['src']
         # fetchAI(indexURL)
-        i.attrs['src'] = './html/'+indexURL.split('/')[-2]+'_index.html'
+        i.attrs['src'] = indexURL.split('/')[-2]+'_index.html'
     body.find('aside').decompose()
     js = """<script>
     window.tedl = window.tedl || {};
@@ -108,11 +108,11 @@ for i in docu.findAll(class_='weekly-edition-wtw__item'):
     link = i.find('a').attrs['href']
     fetchArticle("https://www.economist.com"+link)
     i.find('a').attrs['href'] = './html/'+link.split('/')[-1]+'.html'
-for i in docu.findAll(class_="headline-link"):
-    link = i.attrs['href']
-    fetchArticle("https://www.economist.com"+link)
-    i.attrs['href'] = './html/'+link.split('/')[-1]+'.html'
-    time.sleep(5)
+#for i in docu.findAll(class_="headline-link"):
+#    link = i.attrs['href']
+#    fetchArticle("https://www.economist.com"+link)
+#    i.attrs['href'] = './html/'+link.split('/')[-1]+'.html'
+#    time.sleep(5)
 for i in docu.findAll("img"):
     i.decompose()
 fetchGraphic(graphicURL)
