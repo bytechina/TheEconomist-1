@@ -112,7 +112,7 @@ for i in docu.findAll(class_="headline-link"):
     link = i.attrs['href']
     fetchArticle("https://www.economist.com"+link)
     i.attrs['href'] = './html/'+link.split('/')[-1]+'.html'
-    time.sleep(1)
+    time.sleep(5)
 for i in docu.findAll("img"):
     i.decompose()
 fetchGraphic(graphicURL)
