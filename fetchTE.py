@@ -95,9 +95,6 @@ def fetchArticle(link):
     print('Fetching:'+ title)
     return
 
-os.environ['http_proxy'] = "http://127.0.0.1:7890" 
-os.environ['https_proxy'] = "http://127.0.0.1:7890"
-
 url = "https://www.economist.com/weeklyedition/"
 r = requests.get(url)
 doc = BeautifulSoup(r.content,features="lxml")
