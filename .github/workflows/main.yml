@@ -30,7 +30,9 @@ jobs:
       
       - name: run script
         run: |
-          rm html/*.html image/*.jpg image/*.png
+          rm html/*.html 
+          rm image/*.jpg 
+          rm image/*.png
           python fetchTE.py
         
       - name: git push
