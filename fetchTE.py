@@ -1,4 +1,4 @@
-import os,requests,re
+import os,requests,re,time
 from bs4 import BeautifulSoup
 
 def fetchAI(url):
@@ -112,6 +112,7 @@ for i in docu.findAll(class_="headline-link"):
     link = i.attrs['href']
     fetchArticle("https://www.economist.com"+link)
     i.attrs['href'] = './html/'+link.split('/')[-1]+'.html'
+    time.sleep(1)
 for i in docu.findAll("img"):
     i.decompose()
 fetchGraphic(graphicURL)
