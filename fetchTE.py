@@ -108,14 +108,17 @@ for i in docu.findAll(class_='weekly-edition-wtw__item'):
     link = i.find('a').attrs['href']
     fetchArticle("https://www.economist.com"+link)
     i.find('a').attrs['href'] = './html/'+link.split('/')[-1]+'.html'
-#for i in docu.findAll(class_="headline-link"):
-#    link = i.attrs['href']
-#    fetchArticle("https://www.economist.com"+link)
-#    i.attrs['href'] = './html/'+link.split('/')[-1]+'.html'
-#    time.sleep(5)
+fetchGraphic(graphicURL)
+for i in docu.findAll(class_="headline-link"):
+    link = i.attrs['href']
+    if link in graphicURL:
+        i.attrs['href'] = './html/'+link.split('/')[-1]+'.html'
+    else:
+        fetchArticle("https://www.economist.com"+link)
+        i.attrs['href'] = './html/'+link.split('/')[-1]+'.html'
+        time.sleep(2)
 for i in docu.findAll("img"):
     i.decompose()
-fetchGraphic(graphicURL)
 html = '<html lang="en"><meta name="viewport" content="width=device-width, initial-scale=1" /><head><link rel="stylesheet" href="init.css"><title>The Economist</title></head><body><img src="./image/cover.png">'+str(docu)+'</body></html>'
 with open('index.html','w') as f:
     f.write(html)
