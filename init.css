@@ -1,9 +1,11 @@
 html {
-    max-width: 390px;
+    width: 100%;
+    max-width: 700px;
     margin: auto;
 }
 iframe {
-    width:370px;
+    width: 100%;
+    max-width:600px;
     margin: 20 0 0 -15;
     border: 0;
 }
@@ -12,7 +14,8 @@ header {
     text-align: center
 }
 body {
-    max-width: 350px;
+    width: 90%;
+    max-width: 680px;
     margin: auto;
     font-weight: 400;
     font-size: 16px;
@@ -42,7 +45,8 @@ body {
 }
 
 p.article__body-text, p.article__footnote {
-    width: 360px;
+    width: 100%;
+    max-width: 680px;
     font-family: MiloTE;
     line-height: 1.4;
     font-size: 1.2rem;
