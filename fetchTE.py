@@ -76,11 +76,18 @@ def fetchGraphic(link):
 def fetchArticle(link,n=1):
     r = requests.get(link)
     doc = BeautifulSoup(r.content,features="lxml")
+    link = doc.find('meta',{'property':"og:url"}).attrs['content']
     body = doc.find(class_="ds-layout-grid ds-layout-grid--edged layout-article-body")
-    if n != 0:
-        for i in body.findAll('a',{'href':re.compile("^/")}):
-            url = i.attrs['href']
-            fetchArticle('https://www.economist.com'+url,0)
+    if not body:
+        return 'page-not-found'
+    for i in body.findAll('a',{'href':re.compile("^/")}):
+        url = i.attrs['href']
+        if 'email' in url:
+            continue
+        if n!=0:
+            l = fetchArticle('https://www.economist.com'+url,0)
+            i.attrs['href'] = './'+l+'.html'            
+        else:
             i.attrs['href'] = './'+url.split('/')[-1]+'.html'
     for i in doc.findAll("img"):
         url = i.attrs['src']
@@ -99,7 +106,7 @@ def fetchArticle(link,n=1):
     with open(htmlname,'w') as f:
         f.write(html)
     print('Fetching: '+ title)
-    return
+    return link.split('/')[-1]
 
 url = "https://www.economist.com/weeklyedition/"
 r = requests.get(url)
@@ -114,7 +121,7 @@ for i in docu.findAll(class_='weekly-edition-wtw__item'):
     link = i.find('a').attrs['href']
     fetchArticle("https://www.economist.com"+link)
     i.find('a').attrs['href'] = './html/'+link.split('/')[-1]+'.html'
-fetchGraphic(graphicURL)
+    fetchGraphic(graphicURL)
 for i in docu.findAll(class_="headline-link"):
     link = i.attrs['href']
     if link in graphicURL:
@@ -122,7 +129,7 @@ for i in docu.findAll(class_="headline-link"):
     else:
         fetchArticle("https://www.economist.com"+link)
         i.attrs['href'] = './html/'+link.split('/')[-1]+'.html'
-        time.sleep(2)
+        #time.sleep(2)
 for i in docu.findAll("img"):
     i.decompose()
 html = '<html lang="en"><meta name="viewport" content="width=device-width, initial-scale=1" /><head><link rel="stylesheet" href="init.css"><title>The Economist</title></head><body><img src="./image/cover.png">'+str(docu)+'</body></html>'
