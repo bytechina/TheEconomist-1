@@ -139,7 +139,7 @@ figure {
     text-transform: uppercase;
 }
 
-.ds-tab-list, ._newsletterContentPromo {
+.ds-tab-list, div._newsletterContentPromo {
     display: none;
 }
 .weekly-edition-wtw__item {
