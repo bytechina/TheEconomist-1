@@ -139,7 +139,7 @@ figure {
     text-transform: uppercase;
 }
 
-.ds-tab-list {
+.ds-tab-list, ._newsletterContentPromo {
     display: none;
 }
 .weekly-edition-wtw__item {
@@ -149,7 +149,6 @@ figure {
 h2 {
     font-family: EconSansOS;
     font-size: 1.2rem;
-    border-bottom: 0.06rem solid #0d0d0d;
 }
 .weekly-edition-wtw__link {
     color: #0d0d0d;
