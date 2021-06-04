@@ -73,9 +73,15 @@ def fetchGraphic(link):
         f.write(html)
     return
 
-def fetchArticle(link):
+def fetchArticle(link,n=1):
     r = requests.get(link)
     doc = BeautifulSoup(r.content,features="lxml")
+    body = doc.find(class_="ds-layout-grid ds-layout-grid--edged layout-article-body")
+    if n != 0:
+        for i in body.findAll('a',{'href':re.compile("^/")}):
+            url = i.attrs['href']
+            fetchArticle('https://www.economist.com'+url,0)
+            i.attrs['href'] = './'+url.split('/')[-1]+'.html'
     for i in doc.findAll("img"):
         url = i.attrs['src']
         img = requests.get(url).content
@@ -92,7 +98,7 @@ def fetchArticle(link):
     htmlname = './html/'+link.split('/')[-1]+'.html'
     with open(htmlname,'w') as f:
         f.write(html)
-    print('Fetching:'+ title)
+    print('Fetching: '+ title)
     return
 
 url = "https://www.economist.com/weeklyedition/"
