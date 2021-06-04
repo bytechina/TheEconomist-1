@@ -32,6 +32,7 @@ jobs:
       
       - name: run script
         run: |
+          git pull
           rm html/*.html 
           rm image/*.jpg 
           rm image/*.png
@@ -39,8 +40,6 @@ jobs:
         
       - name: git push
         run: |
-          git stash
-          git pull
           git add .
           git config --global user.name "Taizi Huang"
           git config --global user.email "htzllt@gmail.com"
