@@ -149,6 +149,7 @@ figure {
 h2 {
     font-family: EconSansOS;
     font-size: 1.2rem;
+    border-bottom: 0.06rem solid #0d0d0d;
 }
 .weekly-edition-wtw__link {
     color: #0d0d0d;
@@ -187,3 +188,5 @@ span.teaser__headline.teaser__headline {
     font-family:MiloTE;
     font-size:1.1rem;
 }
+
+
