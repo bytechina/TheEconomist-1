@@ -112,7 +112,7 @@ def fetchArticle(link,n=1):
             doc.find('iframe').replaceWith(txt)
             if not os.path.isfile('./audio/'+acastname+'.mp3'):
                 acast = requests.get(acastURL).content
-                with open('./audio/'+acastname+'.mp3','wb') as f:
+                with open('./audio/'+acastname+'.mp3','w') as f:
                     f.write(acast)
     title = doc.find(class_="article__headline").text
     header = doc.find(class_="ds-layout-grid ds-layout-grid--edged layout-article-header")
