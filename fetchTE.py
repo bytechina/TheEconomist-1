@@ -104,6 +104,16 @@ def fetchArticle(link,n=1):
         doc.find(class_="react-audio-player").attrs['src'] = '../audio/'+link.split('/')[-1]+'.mp3'
         with open(audioname,'wb') as f:
             f.write(audio)
+        if doc.find('iframe'):
+    if 'acast' in doc.find('iframe').attrs['src']:
+        acastname = doc.find('iframe').attrs['src'].split('/')[-1]
+        acastURL = 'https://sphinx.acast.com/theintelligencepodcast/'+acastname+'/media.mp3'
+        txt = BeautifulSoup('<audio class="react-audio-player" controls="" controlslist="nodownload" id="audio-player" preload="none" src="../audio/'+acastname+'.mp3" title=""><p></p></audio>',features="lxml")
+        doc.find('iframe').replaceWith(txt)
+        if not os.path.isfile('./audio/'+acastname+'.mp3'):
+            acast = requests.get(acastURL).content
+            with open('./audio/'+acastname+'.mp3','wb') as f:
+                f.write(acast)
     title = doc.find(class_="article__headline").text
     header = doc.find(class_="ds-layout-grid ds-layout-grid--edged layout-article-header")
     body = doc.find(class_="ds-layout-grid ds-layout-grid--edged layout-article-body")
