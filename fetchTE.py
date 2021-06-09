@@ -97,6 +97,13 @@ def fetchArticle(link,n=1):
             f.write(img)
         i.attrs['src'] = '../image/'+url.split('/')[-1]
         i.attrs['srcset'] = '../image/'+url.split('/')[-1]
+    if doc.find(class_="react-audio-player"):
+        audioURL = doc.find(class_="react-audio-player").attrs['src']
+        audio = requests.get(audioURL).content
+        audioname = './audio/'+link.split('/')[-1]+'.mp3'
+        doc.find(class_="react-audio-player").attrs['src'] = '../audio/'+link.split('/')[-1]+'.mp3'
+        with open(audioname,'wb') as f:
+            f.write(audio)
     title = doc.find(class_="article__headline").text
     header = doc.find(class_="ds-layout-grid ds-layout-grid--edged layout-article-header")
     body = doc.find(class_="ds-layout-grid ds-layout-grid--edged layout-article-body")
