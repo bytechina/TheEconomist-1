@@ -108,7 +108,10 @@ def fetchArticle(link,n=1):
         if 'acast' in doc.find('iframe').attrs['src']:
             acastname0 = doc.find('iframe').attrs['src'].replace('embed','sphinx')
             acastname = acastname0.split('/')[-1]
-            acastURL = 'https:'+acastname0+'/media.mp3'
+            if 'https' not in acastname0:
+                acastURL = 'https:'+acastname0+'/media.mp3'
+            else:
+                acastURL = acastname0+'/media.mp3'
             txt = BeautifulSoup('<audio class="react-audio-player" controls="" controlslist="nodownload" id="audio-player" preload="none" src="../audio/'+acastname+'.mp3" title=""><p></p></audio>',features="lxml")
             doc.find('iframe').replaceWith(txt)
             if not os.path.isfile('./audio/'+acastname+'.mp3'):
