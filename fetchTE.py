@@ -67,7 +67,7 @@ def fetchGraphic(link):
     }
     }, false);
     </script>"""
-    html = '<html lang="en"><meta name="viewport" content="width=device-width, initial-scale=1" /><head><link rel="stylesheet" href="../init.css"><title>Graphic Details</title></head><body>'+str(header)+str(body)+'</body>'+js+'</html>'
+    html = '<html lang="en"><meta name="viewport" content="width=device-width, initial-scale=1" /><head><!-- Global site tag (gtag.js) - Google Analytics --><script async src="https://www.googletagmanager.com/gtag/js?id=G-2VYEP6CXDE"></script><script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag("js", new Date());  gtag("config", "G-2VYEP6CXDE");</script><link rel="stylesheet" href="../init.css"><title>Graphic Details</title></head><body>'+str(header)+str(body)+'</body>'+js+'</html>'
     htmlname = './html/'+link.split('/')[-1]+'.html'
     with open(htmlname,'w') as f:
         f.write(html)
@@ -122,7 +122,7 @@ def fetchArticle(link,n=1):
     header = doc.find(class_="ds-layout-grid ds-layout-grid--edged layout-article-header")
     body = doc.find(class_="ds-layout-grid ds-layout-grid--edged layout-article-body")
     body.find('aside').decompose()
-    html = '<html lang="en"><meta name="viewport" content="width=device-width, initial-scale=1" /><head><link rel="stylesheet" href="../init.css"><title>'+title+'</title></head><body>'+str(header)+str(body)+'</body></html>'
+    html = '<html lang="en"><meta name="viewport" content="width=device-width, initial-scale=1" /><head><!-- Global site tag (gtag.js) - Google Analytics --><script async src="https://www.googletagmanager.com/gtag/js?id=G-2VYEP6CXDE"></script><script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag("js", new Date());  gtag("config", "G-2VYEP6CXDE");</script><link rel="stylesheet" href="../init.css"><title>'+title+'</title></head><body>'+str(header)+str(body)+'</body></html>'
     htmlname = './html/'+link.split('/')[-1]+'.html'
     with open(htmlname,'w') as f:
         f.write(html)
@@ -153,6 +153,6 @@ for i in docu.findAll(class_="headline-link"):
         #time.sleep(2)
 for i in docu.findAll("img"):
     i.decompose()
-html = '<html lang="en"><meta name="viewport" content="width=device-width, initial-scale=1" /><head><link rel="stylesheet" href="init.css"><title>The Economist</title></head><body><img src="./image/cover.png">'+str(docu)+'</body></html>'
+html = '<html lang="en"><meta name="viewport" content="width=device-width, initial-scale=1" /><head><!-- Global site tag (gtag.js) - Google Analytics --><script async src="https://www.googletagmanager.com/gtag/js?id=G-2VYEP6CXDE"></script><script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag("js", new Date());  gtag("config", "G-2VYEP6CXDE");</script><link rel="stylesheet" href="init.css"><title>The Economist</title></head><body><img src="./image/cover.png">'+str(docu)+'</body></html>'
 with open('index.html','w') as f:
     f.write(html)
