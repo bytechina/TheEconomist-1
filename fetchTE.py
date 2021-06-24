@@ -19,6 +19,8 @@ def fetchAI(url):
     # save css file specific for graphic-details
     for css in doc.findAll(rel="stylesheet"):
         cssURL = css.attrs['href']
+        if 'player' in cssURL:
+            cssURL = 'https://www.youtube.com'+cssURL
         csstext = requests.get(cssURL).text
         cssfile = './assets/'+cssURL.split('/')[-2]+'.css'
         with open(cssfile,'w') as f:
