@@ -1,12 +1,12 @@
 html {
     width: 100%;
-    max-width: 700px;
+    max-width: 900px;
     margin: auto;
 }
 iframe {
     width: 100%;
-    max-width:600px;
-    margin: 20 0 0 -15;
+    max-width:900px;
+    margin: auto;
     border: 0;
 }
 
@@ -15,7 +15,7 @@ header {
 }
 body {
     width: 90%;
-    max-width: 680px;
+    max-width: 780px;
     margin: auto;
     font-weight: 400;
     font-size: 16px;
@@ -46,7 +46,7 @@ body {
 
 p.article__body-text, p.article__footnote {
     width: 100%;
-    max-width: 680px;
+    max-width: 780px;
     font-family: MiloTE;
     line-height: 1.4;
     font-size: 1.2rem;
@@ -100,15 +100,15 @@ div.layout-article-links.layout-article-promo, p.article-audio-player__cta {
 }
 
 img {
-    max-width:100%;
+    max-width:400px;
     width: 100%;
     height: auto;
-    margin: 20 0 0 0;
+    margin: auto;
     display: block;
 }
 
 figure {
-    margin: 0 0 0 0;
+    margin: auto;
 }
 
 .article__body-text a {
