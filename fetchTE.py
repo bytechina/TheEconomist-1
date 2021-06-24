@@ -31,6 +31,8 @@ def fetchAI(url):
     for script in doc.findAll('script'):
         if script.has_attr('src'):
             scriptURL = script.attrs['src']
+            if 'player' in scriptURL:
+                scriptURL = 'https://www.youtube.com'+scriptURL
             scripttext = requests.get(scriptURL).text
             scriptfile = './assets/'+scriptURL.split('/')[-1]
             with open(scriptfile,'w') as f:
