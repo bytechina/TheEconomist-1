@@ -29,12 +29,13 @@ def fetchAI(url):
     
     # save js file 
     for script in doc.findAll('script'):
-        scriptURL = script.attrs['src']
-        scripttext = requests.get(scriptURL).text
-        scriptfile = './assets/'+scriptURL.split('/')[-1]
-        with open(scriptfile,'w') as f:
-            f.write(scripttext)
-        script.attrs['src'] = '../assets/'+scriptURL.split('/')[-1]
+        if script.has_attr('src'):
+            scriptURL = script.attrs['src']
+            scripttext = requests.get(scriptURL).text
+            scriptfile = './assets/'+scriptURL.split('/')[-1]
+            with open(scriptfile,'w') as f:
+                f.write(scripttext)
+            script.attrs['src'] = '../assets/'+scriptURL.split('/')[-1]
 
     # save as separate html file
     file = './html/'+url.split('/')[-2] + '_index.html'
