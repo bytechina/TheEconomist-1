@@ -113,7 +113,8 @@
 		font-weight:300;
 		line-height:15px;
 		height:15px;
-		font-size:13px;
+		font-size:11px;
+		text-align:right;
 		color:rgb(98,97,96);
 	}
 	#g-20210619_GDC200_1-Artboard_1_copy .g-cstyle0 {
@@ -143,7 +144,7 @@
 		letter-spacing:0em;
 		font-size:15px;
 		text-align:left;
-		color:rgb(255,255,255);
+		color:rgb(40,35,29);
 		text-transform:none;
 		padding-bottom:0;
 		padding-top:0;
@@ -161,7 +162,6 @@
 		font-weight:300;
 		height:20px;
 		font-size:16px;
-		color:rgb(40,35,29);
 	}
 	#g-20210619_GDC200_1-Artboard_1_copy_2 .g-pstyle2 {
 		font-weight:500;
@@ -176,7 +176,6 @@
 		line-height:18px;
 		height:18px;
 		font-size:14px;
-		color:rgb(40,35,29);
 	}
 	#g-20210619_GDC200_1-Artboard_1_copy_2 .g-pstyle4 {
 		font-weight:300;
@@ -190,22 +189,18 @@
 		height:20px;
 	}
 	#g-20210619_GDC200_1-Artboard_1_copy_2 .g-pstyle6 {
-		height:20px;
-		color:rgb(40,35,29);
-	}
-	#g-20210619_GDC200_1-Artboard_1_copy_2 .g-pstyle7 {
 		font-weight:300;
 		line-height:18px;
 		height:18px;
 		font-size:14px;
 		text-align:center;
-		color:rgb(40,35,29);
 	}
-	#g-20210619_GDC200_1-Artboard_1_copy_2 .g-pstyle8 {
+	#g-20210619_GDC200_1-Artboard_1_copy_2 .g-pstyle7 {
 		font-weight:300;
 		line-height:15px;
 		height:15px;
 		font-size:13px;
+		text-align:right;
 		color:rgb(98,97,96);
 	}
 	#g-20210619_GDC200_1-Artboard_1_copy_2 .g-cstyle0 {
@@ -220,16 +215,13 @@
 	}
 	#g-20210619_GDC200_1-Artboard_1_copy_2 .g-cstyle3 {
 		font-weight:500;
+		color:rgb(0,167,192);
 	}
 	#g-20210619_GDC200_1-Artboard_1_copy_2 .g-cstyle4 {
 		font-weight:500;
-		color:rgb(0,167,192);
-	}
-	#g-20210619_GDC200_1-Artboard_1_copy_2 .g-cstyle5 {
-		font-weight:500;
 		color:rgb(161,0,43);
 	}
-	#g-20210619_GDC200_1-Artboard_1_copy_2 .g-cstyle6 {
+	#g-20210619_GDC200_1-Artboard_1_copy_2 .g-cstyle5 {
 		font-weight:500;
 		color:rgb(0,87,120);
 	}
@@ -248,7 +240,7 @@
 		letter-spacing:0em;
 		font-size:14px;
 		text-align:left;
-		color:rgb(255,255,255);
+		color:rgb(40,35,29);
 		text-transform:none;
 		padding-bottom:0;
 		padding-top:0;
@@ -268,7 +260,6 @@
 		line-height:20px;
 		height:20px;
 		font-size:16px;
-		color:rgb(40,35,29);
 	}
 	#g-20210619_GDC200_1-Artboard_1_copy_3 .g-pstyle2 {
 		font-weight:500;
@@ -282,7 +273,6 @@
 		font-weight:300;
 		line-height:18px;
 		height:18px;
-		color:rgb(40,35,29);
 	}
 	#g-20210619_GDC200_1-Artboard_1_copy_3 .g-pstyle4 {
 		font-weight:300;
@@ -294,20 +284,16 @@
 		height:17px;
 	}
 	#g-20210619_GDC200_1-Artboard_1_copy_3 .g-pstyle6 {
-		height:17px;
-		color:rgb(40,35,29);
-	}
-	#g-20210619_GDC200_1-Artboard_1_copy_3 .g-pstyle7 {
 		font-weight:300;
 		height:17px;
 		text-align:center;
-		color:rgb(40,35,29);
 	}
-	#g-20210619_GDC200_1-Artboard_1_copy_3 .g-pstyle8 {
+	#g-20210619_GDC200_1-Artboard_1_copy_3 .g-pstyle7 {
 		font-weight:300;
 		line-height:15px;
 		height:15px;
-		font-size:13px;
+		font-size:12px;
+		text-align:right;
 		color:rgb(98,97,96);
 	}
 	#g-20210619_GDC200_1-Artboard_1_copy_3 .g-cstyle0 {
@@ -346,7 +332,7 @@
 		letter-spacing:0em;
 		font-size:12px;
 		text-align:left;
-		color:rgb(255,255,255);
+		color:rgb(40,35,29);
 		text-transform:none;
 		padding-bottom:0;
 		padding-top:0;
@@ -358,7 +344,6 @@
 		font-weight:300;
 		line-height:14px;
 		height:14px;
-		color:rgb(40,35,29);
 	}
 	#g-20210619_GDC200_1-Artboard_1_copy_4 .g-pstyle1 {
 		font-weight:500;
@@ -371,7 +356,6 @@
 		font-weight:300;
 		line-height:13px;
 		height:13px;
-		color:rgb(40,35,29);
 	}
 	#g-20210619_GDC200_1-Artboard_1_copy_4 .g-pstyle3 {
 		font-weight:300;
@@ -384,20 +368,16 @@
 		height:15px;
 	}
 	#g-20210619_GDC200_1-Artboard_1_copy_4 .g-pstyle5 {
-		height:15px;
-		color:rgb(40,35,29);
-	}
-	#g-20210619_GDC200_1-Artboard_1_copy_4 .g-pstyle6 {
 		font-weight:300;
 		line-height:12px;
 		height:12px;
 		text-align:center;
-		color:rgb(40,35,29);
 	}
-	#g-20210619_GDC200_1-Artboard_1_copy_4 .g-pstyle7 {
+	#g-20210619_GDC200_1-Artboard_1_copy_4 .g-pstyle6 {
 		font-weight:300;
 		height:15px;
-		font-size:13px;
+		font-size:11px;
+		text-align:right;
 		color:rgb(98,97,96);
 	}
 	#g-20210619_GDC200_1-Artboard_1_copy_4 .g-cstyle0 {
@@ -503,6 +483,8 @@
 		font-weight:300;
 		line-height:15px;
 		height:15px;
+		font-size:11px;
+		text-align:right;
 		color:rgb(98,97,96);
 	}
 	#g-20210619_GDC200_1-Artboard_1_copy_5 .g-cstyle0 {
