@@ -81,6 +81,8 @@ def fetchGraphic(link):
 def fetchArticle(link,n=1):
     r = requests.get(link)
     doc = BeautifulSoup(r.content,features="lxml")
+    if not doc.find('meta',{'property':"og:url"}):
+        return link
     link = doc.find('meta',{'property':"og:url"}).attrs['content']
     body = doc.find(class_="ds-layout-grid ds-layout-grid--edged layout-article-body")
     if not body:
