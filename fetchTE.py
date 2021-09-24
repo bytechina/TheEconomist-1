@@ -150,6 +150,7 @@ for i in docu.findAll(class_='weekly-edition-wtw__item'):
     fetchArticle("https://www.economist.com"+link)
     i.find('a').attrs['href'] = './html/'+link.split('/')[-1]+'.html'
     fetchGraphic(graphicURL)
+    time.sleep(2)
 for i in docu.findAll(class_="headline-link"):
     link = i.attrs['href']
     if link in graphicURL:
@@ -157,7 +158,7 @@ for i in docu.findAll(class_="headline-link"):
     else:
         fetchArticle("https://www.economist.com"+link)
         i.attrs['href'] = './html/'+link.split('/')[-1]+'.html'
-        #time.sleep(2)
+       time.sleep(2)
 for i in docu.findAll("img"):
     i.decompose()
 html = '<html lang="en"><meta name="viewport" content="width=device-width, initial-scale=1" /><head><!-- Global site tag (gtag.js) - Google Analytics --><script async src="https://www.googletagmanager.com/gtag/js?id=G-2VYEP6CXDE"></script><script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag("js", new Date());  gtag("config", "G-2VYEP6CXDE");</script><link rel="stylesheet" href="init.css"><title>The Economist</title></head><body><img src="./image/cover.png">'+str(docu)+'</body></html>'
