@@ -89,10 +89,14 @@ def fetchArticle(link,n=1):
         return 'page-not-found'
     for i in body.findAll('a',{'href':re.compile("^/")}):
         url = i.attrs['href']
+        if 'https' in url:
+            pass
+        else:
+            url = 'https://www.economist.com'+url
         if 'email' in url:
             continue
         if n!=0:
-            l = fetchArticle('https://www.economist.com'+url,0)
+            l = fetchArticle(url,0)
             i.attrs['href'] = './'+l+'.html'            
         else:
             i.attrs['href'] = './'+url.split('/')[-1]+'.html'
