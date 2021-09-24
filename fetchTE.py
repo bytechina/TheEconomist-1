@@ -163,7 +163,10 @@ for i in docu.findAll(class_="headline-link"):
     if link in graphicURL:
         i.attrs['href'] = './html/'+link.split('/')[-1]+'.html'
     else:
-        fetchArticle("https://www.economist.com"+link)
+        if 'https' in link:
+            fetchArticle(link)
+        else:
+            fetchArticle("https://www.economist.com"+link)
         i.attrs['href'] = './html/'+link.split('/')[-1]+'.html'
     time.sleep(2)
 for i in docu.findAll("img"):
