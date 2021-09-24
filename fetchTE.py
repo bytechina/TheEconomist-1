@@ -147,7 +147,10 @@ with open('./image/cover.png',"wb") as f:
     f.write(img)
 for i in docu.findAll(class_='weekly-edition-wtw__item'):
     link = i.find('a').attrs['href']
-    fetchArticle("https://www.economist.com"+link)
+    if 'https' in link:
+        fetchArticle(link)
+    else:
+        fetchArticle("https://www.economist.com"+link)
     i.find('a').attrs['href'] = './html/'+link.split('/')[-1]+'.html'
     fetchGraphic(graphicURL)
     time.sleep(2)
