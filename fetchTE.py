@@ -102,6 +102,8 @@ def fetchArticle(link,n=1):
             i.attrs['href'] = './'+url.split('/')[-1]+'.html'
     for i in doc.findAll("img"):
         url = i.attrs['src']
+        if 'https' not in url:
+            url = 'https://www.economist.com/'+url
         img = requests.get(url).content
         imgfile = './image/'+url.split('/')[-1]
         with open(imgfile,"wb") as f:
