@@ -50,7 +50,10 @@ def fetchGraphic(link):
     r = requests.get(link)
     doc = BeautifulSoup(r.content,features="lxml")
     for i in doc.findAll('iframe'):
-        fetchAI(i.attrs['src'])
+        url = i.attrs['src']
+        if 'https' not in url:
+            url = 'https://www.economist.com/'+url
+        fetchAI(url)
     header = doc.find(class_="ds-layout-grid ds-layout-grid--edged layout-article-header")
     body = doc.find(class_="ds-layout-grid ds-layout-grid--edged layout-article-body")
     for i in body.findAll('iframe'):
