@@ -35,6 +35,8 @@ def fetchAI(url):
             scriptURL = script.attrs['src']
             if 'player' in scriptURL:
                 scriptURL = 'https://www.youtube.com'+scriptURL
+            if 'https' not in scriptURL:
+                scriptURL = 'https://infographics.economist.com/2021/news-reviews/'+scriptURL
             scripttext = requests.get(scriptURL).text
             scriptfile = './assets/'+scriptURL.split('/')[-1]
             with open(scriptfile,'w') as f:
