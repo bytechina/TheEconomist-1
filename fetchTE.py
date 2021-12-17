@@ -21,6 +21,8 @@ def fetchAI(url):
         cssURL = css.attrs['href']
         if 'player' in cssURL:
             cssURL = 'https://www.youtube.com'+cssURL
+        if 'https' not in cssURL:
+            cssURL = 'https://infographics.economist.com/2021/news-reviews/'+cssURL
         csstext = requests.get(cssURL).text
         cssfile = './assets/'+cssURL.split('/')[-2]+'.css'
         with open(cssfile,'w') as f:
