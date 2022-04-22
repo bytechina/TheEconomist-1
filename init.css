@@ -180,6 +180,10 @@ span.teaser__headline.teaser__headline {
     text-decoration: chartreuse;
 }
 
+#.css-12d2uoj.ey1yhxa5,#.css-11m9t22.ey1yhxa6 {
+display: none;
+}
+
 .headline-link {
     text-decoration: none;
 }
