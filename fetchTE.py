@@ -155,6 +155,8 @@ doc = BeautifulSoup(r.content,features="lxml")
 docu = doc.find(class_='layout-weekly-edition')
 headerImgURL = docu.find(class_='weekly-edition-header__image').find('img').attrs['src']
 graphicURL = docu.find('a',{'href': re.compile("graphic-detail")}).attrs['href']
+if 'https' not in graphicURL:
+    graphicURL = "https://www.economist.com"+graphicURL
 img = requests.get(headerImgURL).content
 with open('./image/cover.png',"wb") as f:
     f.write(img)
