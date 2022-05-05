@@ -12,8 +12,9 @@ def fetchArticle(link,n=1):
 
     if doc.find('iframe'):
         if 'youtube' not in doc.find('iframe').attrs['src']:
-            fetchGraphic(link)
-            return link.split('/')[-1]
+            if 'acast' not in doc.find('iframe').attrs['src']:
+                fetchGraphic(link)
+                return link.split('/')[-1]
 
     # fetch article body
     body = doc.find(class_="article__body-text").parent
