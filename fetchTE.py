@@ -2,7 +2,8 @@ import os,requests,re,time,json
 from bs4 import BeautifulSoup
 
 def fetchArticle(link,n=1):
-
+    print(link)
+    
     r = requests.get(link)
     doc = BeautifulSoup(r.content,features="lxml")
 
@@ -10,8 +11,9 @@ def fetchArticle(link,n=1):
         return 'page-not-found'
 
     if doc.find('iframe'):
-        fetchGraphic(link)
-        return link.split('/')[-1]
+        if 'youtube' not in doc.find('iframe').attrs['src']:
+            fetchGraphic(link)
+            return link.split('/')[-1]
 
     # fetch article body
     body = doc.find(class_="article__body-text").parent
@@ -47,7 +49,6 @@ def fetchArticle(link,n=1):
     htmlname = './html/'+link.split('/')[-1]+'.html'
     with open(htmlname,'w') as f:
         f.write(html)
-    print('Fetching: '+ link.split('/')[-1])
     return link.split('/')[-1]
 
 def fetchImg(url):
@@ -156,7 +157,6 @@ with open('./image/cover.png',"wb") as f:
     f.write(img)
 for i in docu.findAll(class_='weekly-edition-wtw__item'):
     link = i.find('a').attrs['href']
-    print(link)
     if 'https' not in link:
         link = "https://www.economist.com"+link
     fetchArticle(link)
