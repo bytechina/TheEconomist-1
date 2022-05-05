@@ -3,5 +3,5 @@
 <title>404 Not Found</title>
 </head><body>
 <h1>Not Found</h1>
-<p>The requested URL /2021/news-reviews/dist/quadratic-two.css/ was not found on this server.</p>
+<p>The requested URL /2021/news-reviews/js/quadratic-one.6760a9c8802258aff295.js/ was not found on this server.</p>
 </body></html>

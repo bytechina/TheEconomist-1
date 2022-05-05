@@ -1,0 +1,197 @@
+	body {
+
+		margin: 0 auto;
+	}
+	#g-20220416_WOC139-box ,
+	#g-20220416_WOC139-box .g-artboard {
+		margin:0 auto;
+	}
+	#g-20220416_WOC139-box p {
+		margin:0;
+	}
+	#g-20220416_WOC139-box .g-aiAbs {
+		position:absolute;
+	}
+	#g-20220416_WOC139-box .g-aiImg {
+		position:absolute;
+		top:0;
+		display:block;
+		width:100% !important;
+	}
+	#g-20220416_WOC139-box .g-aiSymbol {
+		position: absolute;
+		box-sizing: border-box;
+	}
+	#g-20220416_WOC139-box .g-aiPointText p { white-space: nowrap; }
+	#g-20220416_WOC139-Artboard_1 {
+		position:relative;
+		overflow:hidden;
+	}
+	#g-20220416_WOC139-Artboard_1 p {
+		font-family:EconSansCnd,EconSansCndSec,Arial Narrow,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,'sans-serif';
+		font-weight:300;
+		line-height:14px;
+		height:auto;
+		opacity:1;
+		letter-spacing:0em;
+		font-size:13px;
+		text-align:left;
+		color:rgb(128,128,128);
+		text-transform:none;
+		padding-bottom:0;
+		padding-top:0;
+		mix-blend-mode:normal;
+		font-style:normal;
+		position:static;
+	}
+	#g-20220416_WOC139-Artboard_1 .g-pstyle0 {
+		font-family:EconSansLin,EconSansOS,EconSansOSSec,EconSans,EconSansSec,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,'sans-serif';
+		font-weight:700;
+		line-height:20px;
+		height:20px;
+		letter-spacing:0.005em;
+		font-size:16px;
+		color:rgb(0,0,0);
+	}
+	#g-20220416_WOC139-Artboard_1 .g-pstyle1 {
+		font-weight:400;
+		line-height:18px;
+		height:18px;
+		font-size:16px;
+		color:rgb(0,0,0);
+	}
+	#g-20220416_WOC139-Artboard_1 .g-pstyle2 {
+		line-height:9px;
+		height:9px;
+		font-size:14px;
+		text-align:right;
+		color:rgb(0,0,0);
+	}
+	#g-20220416_WOC139-Artboard_1 .g-pstyle3 {
+		height:14px;
+	}
+	#g-20220416_WOC139-Artboard_1 .g-pstyle4 {
+		font-weight:500;
+		line-height:16px;
+		height:16px;
+		font-size:14px;
+		color:rgb(190,10,62);
+	}
+	#g-20220416_WOC139-Artboard_1 .g-pstyle5 {
+		font-weight:500;
+		line-height:16px;
+		height:16px;
+		font-size:14px;
+		color:rgb(31,92,153);
+	}
+	#g-20220416_WOC139-Artboard_1 .g-pstyle6 {
+		font-weight:500;
+		line-height:16px;
+		height:16px;
+		font-size:14px;
+		color:rgb(118,114,94);
+	}
+	#g-20220416_WOC139-Artboard_1 .g-pstyle7 {
+		font-weight:500;
+		line-height:16px;
+		height:16px;
+		font-size:14px;
+		color:rgb(0,129,158);
+	}
+	#g-20220416_WOC139-Artboard_1 .g-pstyle8 {
+		line-height:15px;
+		height:15px;
+		font-size:14px;
+		text-align:center;
+		color:rgb(0,0,0);
+	}
+	#g-20220416_WOC139-Artboard_1 .g-pstyle9 {
+		line-height:15px;
+		height:15px;
+	}
+	#g-20220416_WOC139-Artboard_1_copy {
+		position:relative;
+		overflow:hidden;
+	}
+	#g-20220416_WOC139-Artboard_1_copy p {
+		font-family:EconSansCnd,EconSansCndSec,Arial Narrow,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,'sans-serif';
+		font-weight:300;
+		line-height:14px;
+		height:auto;
+		opacity:1;
+		letter-spacing:0em;
+		font-size:13px;
+		text-align:left;
+		color:rgb(128,128,128);
+		text-transform:none;
+		padding-bottom:0;
+		padding-top:0;
+		mix-blend-mode:normal;
+		font-style:normal;
+		position:static;
+	}
+	#g-20220416_WOC139-Artboard_1_copy .g-pstyle0 {
+		font-family:EconSansLin,EconSansOS,EconSansOSSec,EconSans,EconSansSec,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,'sans-serif';
+		font-weight:700;
+		line-height:20px;
+		height:20px;
+		letter-spacing:0.005em;
+		font-size:16px;
+		color:rgb(0,0,0);
+	}
+	#g-20220416_WOC139-Artboard_1_copy .g-pstyle1 {
+		font-weight:400;
+		line-height:18px;
+		height:18px;
+		font-size:16px;
+		color:rgb(0,0,0);
+	}
+	#g-20220416_WOC139-Artboard_1_copy .g-pstyle2 {
+		line-height:9px;
+		height:9px;
+		font-size:14px;
+		text-align:right;
+		color:rgb(0,0,0);
+	}
+	#g-20220416_WOC139-Artboard_1_copy .g-pstyle3 {
+		height:14px;
+	}
+	#g-20220416_WOC139-Artboard_1_copy .g-pstyle4 {
+		font-weight:500;
+		line-height:16px;
+		height:16px;
+		font-size:14px;
+		color:rgb(190,10,62);
+	}
+	#g-20220416_WOC139-Artboard_1_copy .g-pstyle5 {
+		font-weight:500;
+		line-height:16px;
+		height:16px;
+		font-size:14px;
+		color:rgb(31,92,153);
+	}
+	#g-20220416_WOC139-Artboard_1_copy .g-pstyle6 {
+		font-weight:500;
+		line-height:16px;
+		height:16px;
+		font-size:14px;
+		color:rgb(0,129,158);
+	}
+	#g-20220416_WOC139-Artboard_1_copy .g-pstyle7 {
+		font-weight:500;
+		line-height:16px;
+		height:16px;
+		font-size:14px;
+		color:rgb(118,114,94);
+	}
+	#g-20220416_WOC139-Artboard_1_copy .g-pstyle8 {
+		line-height:15px;
+		height:15px;
+		font-size:14px;
+		text-align:center;
+		color:rgb(0,0,0);
+	}
+	#g-20220416_WOC139-Artboard_1_copy .g-pstyle9 {
+		line-height:15px;
+		height:15px;
+	}

@@ -1,0 +1,505 @@
+	body {
+
+		margin: 0 auto;
+	}
+	#g-20220507_GDC203-box ,
+	#g-20220507_GDC203-box .g-artboard {
+		margin:0 auto;
+	}
+	#g-20220507_GDC203-box p {
+		margin:0;
+	}
+	#g-20220507_GDC203-box .g-aiAbs {
+		position:absolute;
+	}
+	#g-20220507_GDC203-box .g-aiImg {
+		position:absolute;
+		top:0;
+		display:block;
+		width:100% !important;
+	}
+	#g-20220507_GDC203-box .g-aiSymbol {
+		position: absolute;
+		box-sizing: border-box;
+	}
+	#g-20220507_GDC203-box .g-aiPointText p { white-space: nowrap; }
+	#g-20220507_GDC203-Artboard_1_copy {
+		position:relative;
+		overflow:hidden;
+	}
+	#g-20220507_GDC203-Artboard_1_copy p {
+		font-family:EconSansCnd,EconSansCndSec,Arial Narrow,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,'sans-serif';
+		font-weight:500;
+		line-height:22px;
+		height:auto;
+		opacity:1;
+		letter-spacing:0em;
+		font-size:16px;
+		text-align:left;
+		color:rgb(40,35,29);
+		text-transform:none;
+		padding-bottom:0;
+		padding-top:0;
+		mix-blend-mode:normal;
+		font-style:normal;
+		position:static;
+	}
+	#g-20220507_GDC203-Artboard_1_copy .g-pstyle0 {
+		height:22px;
+	}
+	#g-20220507_GDC203-Artboard_1_copy .g-pstyle1 {
+		font-weight:400;
+		line-height:15px;
+		height:15px;
+		font-size:14px;
+	}
+	#g-20220507_GDC203-Artboard_1_copy .g-pstyle2 {
+		font-weight:400;
+		line-height:19px;
+		height:19px;
+		font-size:14px;
+	}
+	#g-20220507_GDC203-Artboard_1_copy .g-pstyle3 {
+		line-height:19px;
+		height:19px;
+		font-size:14px;
+		color:rgb(179,3,51);
+	}
+	#g-20220507_GDC203-Artboard_1_copy .g-pstyle4 {
+		line-height:19px;
+		height:19px;
+		font-size:14px;
+		color:rgb(0,108,161);
+	}
+	#g-20220507_GDC203-Artboard_1_copy .g-pstyle5 {
+		font-weight:300;
+		line-height:18px;
+		height:18px;
+		font-size:14px;
+		text-align:center;
+		color:rgb(98,96,95);
+	}
+	#g-20220507_GDC203-Artboard_1_copy .g-pstyle6 {
+		font-weight:400;
+		line-height:20px;
+		height:20px;
+		font-size:14px;
+		text-align:center;
+		color:rgb(179,3,51);
+	}
+	#g-20220507_GDC203-Artboard_1_copy .g-pstyle7 {
+		font-weight:400;
+		line-height:20px;
+		height:20px;
+		font-size:14px;
+		text-align:center;
+		color:rgb(194,64,78);
+	}
+	#g-20220507_GDC203-Artboard_1_copy .g-pstyle8 {
+		font-weight:400;
+		line-height:19px;
+		height:19px;
+		font-size:14px;
+		text-align:center;
+		color:rgb(0,108,161);
+	}
+	#g-20220507_GDC203-Artboard_1_copy .g-pstyle9 {
+		line-height:18px;
+		height:18px;
+		font-size:14px;
+		text-align:center;
+		color:rgb(114,111,98);
+	}
+	#g-20220507_GDC203-Artboard_1_copy .g-pstyle10 {
+		line-height:18px;
+		height:18px;
+		font-size:14px;
+		color:rgb(0,169,192);
+	}
+	#g-20220507_GDC203-Artboard_1_copy .g-pstyle11 {
+		line-height:18px;
+		height:18px;
+		font-size:14px;
+		text-align:center;
+		color:rgb(0,63,95);
+	}
+	#g-20220507_GDC203-Artboard_1_copy .g-pstyle12 {
+		line-height:17px;
+		height:17px;
+		font-size:14px;
+		text-align:center;
+		color:rgb(114,111,98);
+	}
+	#g-20220507_GDC203-Artboard_1_copy .g-pstyle13 {
+		font-weight:300;
+		line-height:18px;
+		height:18px;
+		font-size:14px;
+		text-align:center;
+	}
+	#g-20220507_GDC203-Artboard_1_copy .g-pstyle14 {
+		font-weight:300;
+		line-height:16px;
+		height:16px;
+		font-size:14px;
+		text-align:center;
+	}
+	#g-20220507_GDC203-Artboard_1_copy .g-pstyle15 {
+		font-weight:300;
+		line-height:17px;
+		height:17px;
+		font-size:13px;
+		text-align:right;
+		color:rgb(98,96,95);
+	}
+	#g-20220507_GDC203-Artboard_1_copy_2 {
+		position:relative;
+		overflow:hidden;
+	}
+	#g-20220507_GDC203-Artboard_1_copy_2 p {
+		font-family:EconSansCnd,EconSansCndSec,Arial Narrow,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,'sans-serif';
+		font-weight:500;
+		line-height:22px;
+		height:auto;
+		opacity:1;
+		letter-spacing:0em;
+		font-size:16px;
+		text-align:left;
+		color:rgb(40,35,29);
+		text-transform:none;
+		padding-bottom:0;
+		padding-top:0;
+		mix-blend-mode:normal;
+		font-style:normal;
+		position:static;
+	}
+	#g-20220507_GDC203-Artboard_1_copy_2 .g-pstyle0 {
+		height:22px;
+	}
+	#g-20220507_GDC203-Artboard_1_copy_2 .g-pstyle1 {
+		font-weight:400;
+		line-height:11px;
+		height:11px;
+		font-size:14px;
+	}
+	#g-20220507_GDC203-Artboard_1_copy_2 .g-pstyle2 {
+		font-weight:300;
+		line-height:13px;
+		height:13px;
+		font-size:14px;
+		text-align:center;
+	}
+	#g-20220507_GDC203-Artboard_1_copy_2 .g-pstyle3 {
+		font-weight:300;
+		line-height:13px;
+		height:13px;
+		font-size:14px;
+	}
+	#g-20220507_GDC203-Artboard_1_copy_2 .g-pstyle4 {
+		line-height:14px;
+		height:14px;
+		font-size:14px;
+		color:rgb(179,3,51);
+	}
+	#g-20220507_GDC203-Artboard_1_copy_2 .g-pstyle5 {
+		line-height:14px;
+		height:14px;
+		font-size:14px;
+		color:rgb(0,108,161);
+	}
+	#g-20220507_GDC203-Artboard_1_copy_2 .g-pstyle6 {
+		font-weight:400;
+		line-height:14px;
+		height:14px;
+		font-size:14px;
+		text-align:center;
+		color:rgb(179,3,51);
+	}
+	#g-20220507_GDC203-Artboard_1_copy_2 .g-pstyle7 {
+		font-weight:400;
+		line-height:14px;
+		height:14px;
+		font-size:14px;
+		text-align:center;
+		color:rgb(194,64,78);
+	}
+	#g-20220507_GDC203-Artboard_1_copy_2 .g-pstyle8 {
+		font-weight:400;
+		line-height:14px;
+		height:14px;
+		font-size:14px;
+		text-align:center;
+		color:rgb(0,108,161);
+	}
+	#g-20220507_GDC203-Artboard_1_copy_2 .g-pstyle9 {
+		font-weight:400;
+		line-height:14px;
+		height:14px;
+		font-size:14px;
+	}
+	#g-20220507_GDC203-Artboard_1_copy_2 .g-pstyle10 {
+		line-height:13px;
+		height:13px;
+		font-size:14px;
+		text-align:center;
+		color:rgb(114,111,98);
+	}
+	#g-20220507_GDC203-Artboard_1_copy_2 .g-pstyle11 {
+		line-height:13px;
+		height:13px;
+		font-size:14px;
+		color:rgb(0,169,192);
+	}
+	#g-20220507_GDC203-Artboard_1_copy_2 .g-pstyle12 {
+		line-height:13px;
+		height:13px;
+		font-size:14px;
+		text-align:center;
+		color:rgb(0,63,95);
+	}
+	#g-20220507_GDC203-Artboard_1_copy_2 .g-pstyle13 {
+		line-height:17px;
+		height:17px;
+		font-size:14px;
+		text-align:center;
+		color:rgb(114,111,98);
+	}
+	#g-20220507_GDC203-Artboard_1_copy_2 .g-pstyle14 {
+		font-weight:300;
+		line-height:11px;
+		height:11px;
+		font-size:14px;
+		text-align:center;
+	}
+	#g-20220507_GDC203-Artboard_1_copy_2 .g-pstyle15 {
+		font-weight:300;
+		line-height:12px;
+		height:12px;
+		font-size:12px;
+		text-align:right;
+		color:rgb(98,96,95);
+	}
+	#g-20220507_GDC203-Artboard_1_copy_3 {
+		position:relative;
+		overflow:hidden;
+	}
+	#g-20220507_GDC203-Artboard_1_copy_3 p {
+		font-family:EconSansCnd,EconSansCndSec,Arial Narrow,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,'sans-serif';
+		font-weight:500;
+		line-height:22px;
+		height:auto;
+		opacity:1;
+		letter-spacing:0em;
+		font-size:16px;
+		text-align:left;
+		color:rgb(40,35,29);
+		text-transform:none;
+		padding-bottom:0;
+		padding-top:0;
+		mix-blend-mode:normal;
+		font-style:normal;
+		position:static;
+	}
+	#g-20220507_GDC203-Artboard_1_copy_3 .g-pstyle0 {
+		height:22px;
+	}
+	#g-20220507_GDC203-Artboard_1_copy_3 .g-pstyle1 {
+		line-height:14px;
+		height:14px;
+		font-size:14px;
+		color:rgb(179,3,51);
+	}
+	#g-20220507_GDC203-Artboard_1_copy_3 .g-pstyle2 {
+		line-height:14px;
+		height:14px;
+		font-size:14px;
+		color:rgb(0,108,161);
+	}
+	#g-20220507_GDC203-Artboard_1_copy_3 .g-pstyle3 {
+		font-weight:400;
+		line-height:14px;
+		height:14px;
+		font-size:14px;
+		text-align:center;
+		color:rgb(179,3,51);
+	}
+	#g-20220507_GDC203-Artboard_1_copy_3 .g-pstyle4 {
+		font-weight:400;
+		line-height:14px;
+		height:14px;
+		font-size:14px;
+		color:rgb(194,64,78);
+	}
+	#g-20220507_GDC203-Artboard_1_copy_3 .g-pstyle5 {
+		font-weight:400;
+		line-height:14px;
+		height:14px;
+		font-size:14px;
+		color:rgb(0,108,161);
+	}
+	#g-20220507_GDC203-Artboard_1_copy_3 .g-pstyle6 {
+		font-weight:400;
+		line-height:14px;
+		height:14px;
+		font-size:14px;
+	}
+	#g-20220507_GDC203-Artboard_1_copy_3 .g-pstyle7 {
+		line-height:13px;
+		height:13px;
+		font-size:14px;
+		text-align:center;
+		color:rgb(114,111,98);
+	}
+	#g-20220507_GDC203-Artboard_1_copy_3 .g-pstyle8 {
+		line-height:13px;
+		height:13px;
+		font-size:14px;
+		color:rgb(0,169,192);
+	}
+	#g-20220507_GDC203-Artboard_1_copy_3 .g-pstyle9 {
+		line-height:13px;
+		height:13px;
+		font-size:14px;
+		color:rgb(0,63,95);
+	}
+	#g-20220507_GDC203-Artboard_1_copy_3 .g-pstyle10 {
+		line-height:17px;
+		height:17px;
+		font-size:14px;
+		text-align:center;
+		color:rgb(114,111,98);
+	}
+	#g-20220507_GDC203-Artboard_1_copy_3 .g-pstyle11 {
+		font-weight:300;
+		line-height:13px;
+		height:13px;
+		font-size:14px;
+		text-align:center;
+	}
+	#g-20220507_GDC203-Artboard_1_copy_3 .g-pstyle12 {
+		font-weight:300;
+		line-height:11px;
+		height:11px;
+		font-size:14px;
+		text-align:center;
+	}
+	#g-20220507_GDC203-Artboard_1_copy_3 .g-pstyle13 {
+		font-weight:300;
+		line-height:12px;
+		height:12px;
+		font-size:12px;
+		text-align:right;
+		color:rgb(98,96,95);
+	}
+	#g-20220507_GDC203-Artboard_1_copy_4 {
+		position:relative;
+		overflow:hidden;
+	}
+	#g-20220507_GDC203-Artboard_1_copy_4 p {
+		font-family:EconSansCnd,EconSansCndSec,Arial Narrow,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,'sans-serif';
+		font-weight:500;
+		line-height:22px;
+		height:auto;
+		opacity:1;
+		letter-spacing:0em;
+		font-size:16px;
+		text-align:left;
+		color:rgb(40,35,29);
+		text-transform:none;
+		padding-bottom:0;
+		padding-top:0;
+		mix-blend-mode:normal;
+		font-style:normal;
+		position:static;
+	}
+	#g-20220507_GDC203-Artboard_1_copy_4 .g-pstyle0 {
+		height:22px;
+	}
+	#g-20220507_GDC203-Artboard_1_copy_4 .g-pstyle1 {
+		line-height:14px;
+		height:14px;
+		font-size:13px;
+		color:rgb(179,3,51);
+	}
+	#g-20220507_GDC203-Artboard_1_copy_4 .g-pstyle2 {
+		line-height:14px;
+		height:14px;
+		font-size:13px;
+		color:rgb(0,108,161);
+	}
+	#g-20220507_GDC203-Artboard_1_copy_4 .g-pstyle3 {
+		font-weight:400;
+		line-height:14px;
+		height:14px;
+		font-size:13px;
+		text-align:center;
+		color:rgb(179,3,51);
+	}
+	#g-20220507_GDC203-Artboard_1_copy_4 .g-pstyle4 {
+		font-weight:400;
+		line-height:14px;
+		height:14px;
+		font-size:13px;
+		color:rgb(194,64,78);
+	}
+	#g-20220507_GDC203-Artboard_1_copy_4 .g-pstyle5 {
+		font-weight:400;
+		line-height:14px;
+		height:14px;
+		font-size:13px;
+		color:rgb(0,108,161);
+	}
+	#g-20220507_GDC203-Artboard_1_copy_4 .g-pstyle6 {
+		font-weight:400;
+		line-height:14px;
+		height:14px;
+		font-size:13px;
+	}
+	#g-20220507_GDC203-Artboard_1_copy_4 .g-pstyle7 {
+		line-height:13px;
+		height:13px;
+		font-size:13px;
+		text-align:center;
+		color:rgb(114,111,98);
+	}
+	#g-20220507_GDC203-Artboard_1_copy_4 .g-pstyle8 {
+		line-height:16px;
+		height:16px;
+		font-size:13px;
+		text-align:center;
+		color:rgb(114,111,98);
+	}
+	#g-20220507_GDC203-Artboard_1_copy_4 .g-pstyle9 {
+		line-height:13px;
+		height:13px;
+		font-size:13px;
+		color:rgb(0,169,192);
+	}
+	#g-20220507_GDC203-Artboard_1_copy_4 .g-pstyle10 {
+		line-height:13px;
+		height:13px;
+		font-size:13px;
+		color:rgb(0,63,95);
+	}
+	#g-20220507_GDC203-Artboard_1_copy_4 .g-pstyle11 {
+		font-weight:300;
+		line-height:13px;
+		height:13px;
+		font-size:13px;
+		text-align:center;
+	}
+	#g-20220507_GDC203-Artboard_1_copy_4 .g-pstyle12 {
+		font-weight:300;
+		line-height:11px;
+		height:11px;
+		font-size:13px;
+		text-align:center;
+	}
+	#g-20220507_GDC203-Artboard_1_copy_4 .g-pstyle13 {
+		font-weight:300;
+		line-height:12px;
+		height:12px;
+		font-size:12px;
+		text-align:right;
+		color:rgb(98,96,95);
+	}
