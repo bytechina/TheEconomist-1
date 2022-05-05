@@ -10,8 +10,9 @@ iframe {
     border: 0;
 }
 
-header {
-    text-align: center
+header,.css-nxgt9g {
+    text-align: center;
+padding: 10px;
 }
 body {
     width: 90%;
@@ -32,16 +33,23 @@ body {
     margin: 20 0 0 0;
 }
 
-.article__headline {
-    display: inline-block;
+h1 {
+    display: block;
     font-family: MiloTE;
     width: 350px;
+    font-size:1.7rem;
+font-weight: 300;
+padding: 20px;
+text-align: center;
+margin: auto;
 }
-.article__description {
-    display: inline-block;
+h2 {
+    display: block;
     font-family: MiloTE;
     font-size:1.125rem;
     width: 350px;
+margin: auto;
+text-align: center;
 }
 
 p.article__body-text, p.article__footnote {
@@ -52,6 +60,13 @@ p.article__body-text, p.article__footnote {
     font-size: 1.2rem;
 }
 
+cite {
+color: #595959;
+font-size: 1rem;
+padding: 20px;
+font-weight: 700;
+margin: 0 2rem 0 0;
+}
 p.article__footnote {
     color: #595959;
     font-family: MiloTE;
@@ -100,15 +115,21 @@ div.layout-article-links.layout-article-promo, p.article-audio-player__cta {
 }
 
 img {
-    max-width:400px;
-    width: 100%;
     height: auto;
     margin: auto;
-    display: block;
+     display: block;
+max-width: 700px;
+width: 60%;
 }
-
-figure {
-    margin: auto;
+.article-audio-player__cta,.article-audio-player__center-tooltip{
+display: none}
+#myImg {
+height: 200px;
+width: auto;
+padding: 20px;
+}
+.react-audio-player{
+width: 90%
 }
 
 .article__body-text a {
@@ -149,7 +170,6 @@ figure {
 h2 {
     font-family: EconSansOS;
     font-size: 1.2rem;
-    border-bottom: 0.06rem solid #0d0d0d;
 }
 .weekly-edition-wtw__link {
     color: #0d0d0d;
@@ -192,5 +212,3 @@ display: none;
     font-family:MiloTE;
     font-size:1.1rem;
 }
-
-
