@@ -1,0 +1,209 @@
+html {
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+}
+iframe {
+    width: 100%;
+    max-width:900px;
+    margin: auto;
+    border: 0;
+}
+
+header {
+    text-align: center
+}
+body {
+    width: 90%;
+    max-width: 780px;
+    margin: auto;
+    font-weight: 400;
+    font-size: 16px;
+    padding-bottom: 80px;
+}
+
+.article__subheadline {
+    color: #e3120b;
+    font-family: EconSansOS;
+    font-size: 1.125rem;
+    font-weight: 400;
+    display: inline-block;
+    line-height: 1.4;
+    margin: 20 0 0 0;
+}
+
+h1 {
+    display: block;
+    font-family: MiloTE;
+    font-size:1.7rem;
+font-weight: 300;
+padding: 20px;
+text-align: center;
+}
+h2 {
+    display: block;
+    font-family: MiloTE;
+    font-size:1.125rem;
+border-bottom: 0.06rem solid #0d0d0d;
+}
+
+p.article__body-text, p.article__footnote {
+    width: 100%;
+    max-width: 780px;
+    font-family: MiloTE;
+    line-height: 1.4;
+    font-size: 1.2rem;
+}
+
+cite {
+color: #595959;
+font-size: 1rem;
+padding: 20px;
+font-weight: 700;
+margin: 0 2rem 0 0;
+}
+p.article__footnote {
+    color: #595959;
+    font-family: MiloTE;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+
+div.layout-article-links.layout-article-promo, p.article-audio-player__cta {
+    display: none;
+}
+
+[data-ornament=ufinish] {
+    color:#e3120b;
+    font-size: 1.2rem;
+}
+.article__body-text[data-interactive-class=g-interactive-source] {
+    color: #595959;
+    font-family: EconSansCnd;
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+@font-face {
+    font-display: swap;
+    font-family: MiloTE;
+    font-style: normal;
+    font-weight: 400;
+    src:
+      url('./assets/milo-primary-subset-rg.woff2') format('woff2'),
+      url('./assets/milo-primary-subset-rg.woff') format('woff');
+  }
+
+@font-face {
+    font-display: swap;
+    font-family: EconSansOS;
+    font-style: normal;
+    font-weight: 400;
+    src:
+      url('./assets/econsans-primary-subset-rg.woff2') format('woff2'),
+      url('./assets/econsans-primary-subset-rg.woff') format('woff');
+  }
+
+  .article__section-headline,.article__section-edition, .article-audio-player__figure figcaption{
+    display: none;
+}
+
+img {
+    height: auto;
+    margin: auto;
+     display: block;
+max-width: 700px;
+width: 60%;
+}
+.article-audio-player__cta,.article-audio-player__center-tooltip{
+display: none}
+#myImg {
+height: 200px;
+width: auto;
+padding: 20px;
+}
+.react-audio-player{
+width: 90%
+}
+
+.article__body-text a {
+    color:#e3120b;
+    font-weight: 200;
+    text-decoration: none;
+}
+
+.weekly-edition-header__headline {
+    margin: 0 0 2rem;
+    max-width: 40rem;
+    font-family: MiloTE;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+.layout-weekly-edition-header{
+    text-align: center;
+}
+.weekly-edition-header__date {
+    font-family: EconSansOS;
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 1.4;
+    display: block;
+    margin: 20 0 0 0;
+    text-transform: uppercase;
+}
+
+.ds-tab-list, div._newsletterContentPromo {
+    display: none;
+}
+.weekly-edition-wtw__item {
+    list-style: none;
+}
+
+h2 {
+    font-family: EconSansOS;
+    font-size: 1.2rem;
+}
+.weekly-edition-wtw__link {
+    color: #0d0d0d;
+    display: block;
+    font-family: MiloTE;
+    font-size: 1.2rem;
+    line-height: 1.2;
+    padding: 5 5 5 5;
+    margin: 0 0 0 -40;
+    text-decoration: none;
+}
+
+span.teaser__subheadline {
+    color: #e3120b; 
+    font-family: EconSansOS;
+    font-size: 1rem;
+    font-weight: 400;
+    display: inline-block;
+    line-height: 1.4;
+    margin: 0 0 0 0;
+    text-decoration: none;
+}
+
+span.teaser__headline.teaser__headline {
+    color: black;
+    font-family: MiloTE;
+    font-size: 1.3rem;
+    text-decoration: chartreuse;
+}
+
+#.css-12d2uoj.ey1yhxa5,#.css-11m9t22.ey1yhxa6 {
+display: none;
+}
+
+.headline-link {
+    text-decoration: none;
+}
+.teaser__description.teaser__description--sc2 {
+    margin: -20 0 0 0;
+    font-family:MiloTE;
+    font-size:1.1rem;
+}
