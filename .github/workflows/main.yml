@@ -36,7 +36,6 @@ jobs:
           rm html/*.html 
           rm image/*.jpg 
           rm image/*.png
-          rm audio/*.mp3
           python fetchTE.py
         
       - name: git push
