@@ -166,7 +166,7 @@ for i in docu.findAll(class_='weekly-edition-wtw__item'):
     else:
         fetchArticle("https://www.economist.com"+link)
     i.find('a').attrs['href'] = './html/'+link.split('/')[-1]+'.html'
-    fetchGraphic(graphicURL)
+    # fetchGraphic(graphicURL)
     time.sleep(2)
 for i in docu.findAll(class_="headline-link"):
     link = i.attrs['href']
