@@ -2,7 +2,6 @@ import os,requests,re,time
 from bs4 import BeautifulSoup
 
 def fetchAI(url):
-    
     r = requests.get(url)
     doc = BeautifulSoup(r.content,features="lxml")
     
