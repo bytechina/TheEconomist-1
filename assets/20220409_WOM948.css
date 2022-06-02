@@ -1,0 +1,294 @@
+	body {
+
+		margin: 0 auto;
+	}
+	#g-20220409_WOM948-box ,
+	#g-20220409_WOM948-box .g-artboard {
+		margin:0 auto;
+	}
+	#g-20220409_WOM948-box p {
+		margin:0;
+	}
+	#g-20220409_WOM948-box .g-aiAbs {
+		position:absolute;
+	}
+	#g-20220409_WOM948-box .g-aiImg {
+		position:absolute;
+		top:0;
+		display:block;
+		width:100% !important;
+	}
+	#g-20220409_WOM948-box .g-aiSymbol {
+		position: absolute;
+		box-sizing: border-box;
+	}
+	#g-20220409_WOM948-box .g-aiPointText p { white-space: nowrap; }
+	#g-20220409_WOM948-Artboard_1 {
+		position:relative;
+		overflow:hidden;
+	}
+	#g-20220409_WOM948-Artboard_1 p {
+		font-family:EconSansCnd,EconSansCndSec,Arial Narrow,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,'sans-serif';
+		font-weight:300;
+		line-height:15px;
+		height:auto;
+		opacity:1;
+		letter-spacing:0em;
+		font-size:13px;
+		text-align:left;
+		color:rgb(98,96,95);
+		text-transform:none;
+		padding-bottom:0;
+		padding-top:0;
+		mix-blend-mode:normal;
+		font-style:normal;
+		position:static;
+	}
+	#g-20220409_WOM948-Artboard_1 .g-pstyle0 {
+		font-weight:400;
+		height:15px;
+		letter-spacing:0.25em;
+		font-size:14px;
+		text-align:center;
+		color:rgb(114,111,98);
+	}
+	#g-20220409_WOM948-Artboard_1 .g-pstyle1 {
+		font-weight:700;
+		line-height:21px;
+		height:21px;
+		letter-spacing:0.5em;
+		font-size:19px;
+		text-align:center;
+		color:rgb(40,35,29);
+	}
+	#g-20220409_WOM948-Artboard_1 .g-pstyle2 {
+		font-weight:400;
+		height:15px;
+		font-size:14px;
+		color:rgb(40,35,29);
+	}
+	#g-20220409_WOM948-Artboard_1 .g-pstyle3 {
+		font-weight:700;
+		height:15px;
+		letter-spacing:0.1em;
+		font-size:15px;
+		text-align:center;
+		color:rgb(40,35,29);
+	}
+	#g-20220409_WOM948-Artboard_1 .g-pstyle4 {
+		height:15px;
+		font-size:14px;
+		text-align:right;
+		color:rgb(40,35,29);
+	}
+	#g-20220409_WOM948-Artboard_1 .g-pstyle5 {
+		font-weight:400;
+		height:15px;
+		font-size:15px;
+		text-align:right;
+		color:rgb(40,35,29);
+	}
+	#g-20220409_WOM948-Artboard_1 .g-pstyle6 {
+		font-weight:500;
+		line-height:16px;
+		height:16px;
+		font-size:15px;
+		color:rgb(40,35,29);
+	}
+	#g-20220409_WOM948-Artboard_1 .g-pstyle7 {
+		height:15px;
+		font-size:14px;
+		color:rgb(40,35,29);
+	}
+	#g-20220409_WOM948-Artboard_1 .g-pstyle8 {
+		font-weight:400;
+		font-style:italic;
+		height:15px;
+		font-size:14px;
+		text-align:center;
+		color:rgb(0,168,192);
+	}
+	#g-20220409_WOM948-Artboard_1 .g-pstyle9 {
+		line-height:14px;
+		height:14px;
+		font-size:14px;
+		color:rgb(40,35,29);
+	}
+	#g-20220409_WOM948-Artboard_1 .g-pstyle10 {
+		height:15px;
+		font-size:15px;
+		color:rgb(40,35,29);
+	}
+	#g-20220409_WOM948-Artboard_1 .g-pstyle11 {
+		font-weight:400;
+		height:15px;
+		font-size:14px;
+		text-align:center;
+		color:rgb(114,111,98);
+	}
+	#g-20220409_WOM948-Artboard_1 .g-pstyle12 {
+		font-weight:400;
+		height:15px;
+		font-size:15px;
+		color:rgb(40,35,29);
+	}
+	#g-20220409_WOM948-Artboard_1 .g-pstyle13 {
+		font-style:italic;
+		height:15px;
+		letter-spacing:0.15em;
+		font-size:14px;
+		text-align:center;
+		color:rgb(49,191,207);
+	}
+	#g-20220409_WOM948-Artboard_1 .g-pstyle14 {
+		height:15px;
+	}
+	#g-20220409_WOM948-Artboard_1 .g-pstyle15 {
+		font-weight:500;
+		height:15px;
+		font-size:15px;
+		text-align:center;
+		color:rgb(114,111,98);
+	}
+	#g-20220409_WOM948-Artboard_1 .g-pstyle16 {
+		height:15px;
+		text-align:center;
+	}
+	#g-20220409_WOM948-Artboard_2 {
+		position:relative;
+		overflow:hidden;
+	}
+	#g-20220409_WOM948-Artboard_2 p {
+		font-family:EconSansCnd,EconSansCndSec,Arial Narrow,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,'sans-serif';
+		font-weight:300;
+		line-height:14px;
+		height:auto;
+		opacity:1;
+		letter-spacing:0em;
+		font-size:12px;
+		text-align:left;
+		color:rgb(98,96,95);
+		text-transform:none;
+		padding-bottom:0;
+		padding-top:0;
+		mix-blend-mode:normal;
+		font-style:normal;
+		position:static;
+	}
+	#g-20220409_WOM948-Artboard_2 .g-pstyle0 {
+		font-weight:700;
+		line-height:18px;
+		height:18px;
+		letter-spacing:0.5em;
+		font-size:19px;
+		text-align:center;
+		color:rgb(40,35,29);
+	}
+	#g-20220409_WOM948-Artboard_2 .g-pstyle1 {
+		font-weight:400;
+		line-height:12px;
+		height:12px;
+		letter-spacing:0.25em;
+		font-size:15px;
+		text-align:center;
+		color:rgb(114,111,98);
+	}
+	#g-20220409_WOM948-Artboard_2 .g-pstyle2 {
+		font-weight:400;
+		line-height:16px;
+		height:16px;
+		font-size:14px;
+		color:rgb(40,35,29);
+	}
+	#g-20220409_WOM948-Artboard_2 .g-pstyle3 {
+		line-height:12px;
+		height:12px;
+		font-size:14px;
+		text-align:right;
+		color:rgb(40,35,29);
+	}
+	#g-20220409_WOM948-Artboard_2 .g-pstyle4 {
+		font-weight:400;
+		line-height:12px;
+		height:12px;
+		font-size:14px;
+		text-align:right;
+		color:rgb(40,35,29);
+	}
+	#g-20220409_WOM948-Artboard_2 .g-pstyle5 {
+		line-height:12px;
+		height:12px;
+		font-size:14px;
+		color:rgb(40,35,29);
+	}
+	#g-20220409_WOM948-Artboard_2 .g-pstyle6 {
+		font-weight:500;
+		line-height:12px;
+		height:12px;
+		opacity:0;
+		text-align:center;
+		color:rgb(69,80,83);
+	}
+	#g-20220409_WOM948-Artboard_2 .g-pstyle7 {
+		font-weight:400;
+		font-style:italic;
+		line-height:12px;
+		height:12px;
+		text-align:center;
+		color:rgb(0,168,192);
+	}
+	#g-20220409_WOM948-Artboard_2 .g-pstyle8 {
+		font-weight:700;
+		line-height:18px;
+		height:18px;
+		letter-spacing:0.3em;
+		font-size:19px;
+		text-align:center;
+		color:rgb(40,35,29);
+	}
+	#g-20220409_WOM948-Artboard_2 .g-pstyle9 {
+		font-weight:400;
+		line-height:12px;
+		height:12px;
+		font-size:14px;
+		color:rgb(40,35,29);
+	}
+	#g-20220409_WOM948-Artboard_2 .g-pstyle10 {
+		font-style:italic;
+		line-height:16px;
+		height:16px;
+		letter-spacing:0.15em;
+		font-size:14px;
+		text-align:center;
+		color:rgb(49,191,207);
+	}
+	#g-20220409_WOM948-Artboard_2 .g-pstyle11 {
+		font-weight:500;
+		line-height:12px;
+		height:12px;
+		font-size:14px;
+		text-align:center;
+		color:rgb(114,111,98);
+	}
+	#g-20220409_WOM948-Artboard_2 .g-pstyle12 {
+		line-height:12px;
+		height:12px;
+		font-size:14px;
+		text-align:center;
+	}
+	#g-20220409_WOM948-Artboard_2 .g-pstyle13 {
+		font-weight:500;
+		line-height:15px;
+		height:15px;
+		font-size:14px;
+		color:rgb(40,35,28);
+	}
+	#g-20220409_WOM948-Artboard_2 .g-pstyle14 {
+		line-height:13px;
+		height:13px;
+		font-size:13px;
+		color:rgb(40,35,28);
+	}
+	#g-20220409_WOM948-Artboard_2 .g-pstyle15 {
+		height:14px;
+	}

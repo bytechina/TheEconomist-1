@@ -1,0 +1,243 @@
+	body {
+
+		margin: 0 auto;
+
+		padding: 0 12px;
+
+		-moz-osx-font-smoothing: grayscale;
+
+		-webkit-font-smoothing: antialiased;
+	}
+	#g-biden-policy-box ,
+	#g-biden-policy-box .g-artboard {
+		margin:0 auto;
+	}
+	#g-biden-policy-box p {
+		margin:0;
+	}
+	#g-biden-policy-box .g-aiAbs {
+		position:absolute;
+	}
+	#g-biden-policy-box .g-aiImg {
+		position:absolute;
+		top:0;
+		display:block;
+		width:100% !important;
+	}
+	#g-biden-policy-box .g-aiSymbol {
+		position: absolute;
+		box-sizing: border-box;
+	}
+	#g-biden-policy-box .g-aiPointText p { white-space: nowrap; }
+	#g-biden-policy-Artboard_1 {
+		position:relative;
+		overflow:hidden;
+	}
+	#g-biden-policy-Artboard_1 p {
+		font-family:EconSansCnd,EconSansCndSec,Arial Narrow,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,'sans-serif';
+		font-weight:400;
+		line-height:16px;
+		height:auto;
+		filter:alpha(opacity=100);
+		-ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+		opacity:1;
+		letter-spacing:0em;
+		font-size:14px;
+		text-align:left;
+		color:rgb(0,0,0);
+		text-transform:none;
+		padding-bottom:0;
+		padding-top:0;
+		mix-blend-mode:normal;
+		font-style:normal;
+		position:static;
+	}
+	#g-biden-policy-Artboard_1 .g-pstyle0 {
+		font-family:EconSansLin,EconSansOS,EconSansOSSec,EconSans,EconSansSec,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,'sans-serif';
+		font-weight:700;
+		line-height:19px;
+		height:19px;
+		font-size:16px;
+	}
+	#g-biden-policy-Artboard_1 .g-pstyle1 {
+		font-weight:300;
+		line-height:19px;
+		height:19px;
+		font-size:16px;
+	}
+	#g-biden-policy-Artboard_1 .g-pstyle2 {
+		font-weight:300;
+		line-height:19px;
+		height:19px;
+		text-align:center;
+		color:rgb(40,35,29);
+	}
+	#g-biden-policy-Artboard_1 .g-pstyle3 {
+		height:16px;
+	}
+	#g-biden-policy-Artboard_1 .g-pstyle4 {
+		height:16px;
+		font-size:12px;
+	}
+	#g-biden-policy-Artboard_1 .g-cstyle0 {
+		font-weight:300;
+		font-size:13px;
+	}
+	#g-biden-policy-Artboard_1_copy {
+		position:relative;
+		overflow:hidden;
+	}
+	#g-biden-policy-Artboard_1_copy p {
+		font-family:EconSansCnd,EconSansCndSec,Arial Narrow,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,'sans-serif';
+		font-weight:400;
+		line-height:12px;
+		height:auto;
+		filter:alpha(opacity=100);
+		-ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+		opacity:1;
+		letter-spacing:0em;
+		font-size:12px;
+		text-align:left;
+		color:rgb(0,0,0);
+		text-transform:none;
+		padding-bottom:0;
+		padding-top:0;
+		mix-blend-mode:normal;
+		font-style:normal;
+		position:static;
+	}
+	#g-biden-policy-Artboard_1_copy .g-pstyle0 {
+		font-family:EconSansLin,EconSansOS,EconSansOSSec,EconSans,EconSansSec,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,'sans-serif';
+		font-weight:700;
+		line-height:19px;
+		height:19px;
+		font-size:16px;
+	}
+	#g-biden-policy-Artboard_1_copy .g-pstyle1 {
+		font-weight:300;
+		line-height:19px;
+		height:19px;
+		text-align:center;
+		color:rgb(40,35,29);
+	}
+	#g-biden-policy-Artboard_1_copy .g-pstyle2 {
+		height:12px;
+	}
+	#g-biden-policy-Artboard_1_copy .g-pstyle3 {
+		line-height:13px;
+		height:13px;
+	}
+	#g-biden-policy-Artboard_1_copy .g-cstyle0 {
+		font-weight:300;
+	}
+	#g-biden-policy-Artboard_1_copy_2 {
+		position:relative;
+		overflow:hidden;
+	}
+	#g-biden-policy-Artboard_1_copy_2 p {
+		font-family:EconSansCnd,EconSansCndSec,Arial Narrow,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,'sans-serif';
+		font-weight:400;
+		line-height:12px;
+		height:auto;
+		filter:alpha(opacity=100);
+		-ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+		opacity:1;
+		letter-spacing:0em;
+		font-size:12px;
+		text-align:left;
+		color:rgb(0,0,0);
+		text-transform:none;
+		padding-bottom:0;
+		padding-top:0;
+		mix-blend-mode:normal;
+		font-style:normal;
+		position:static;
+	}
+	#g-biden-policy-Artboard_1_copy_2 .g-pstyle0 {
+		font-family:EconSansLin,EconSansOS,EconSansOSSec,EconSans,EconSansSec,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,'sans-serif';
+		font-weight:700;
+		line-height:19px;
+		height:19px;
+		font-size:16px;
+	}
+	#g-biden-policy-Artboard_1_copy_2 .g-pstyle1 {
+		font-weight:300;
+		line-height:19px;
+		height:19px;
+		font-size:15px;
+	}
+	#g-biden-policy-Artboard_1_copy_2 .g-pstyle2 {
+		font-weight:300;
+		line-height:19px;
+		height:19px;
+		text-align:center;
+		color:rgb(40,35,29);
+	}
+	#g-biden-policy-Artboard_1_copy_2 .g-pstyle3 {
+		height:12px;
+	}
+	#g-biden-policy-Artboard_1_copy_2 .g-pstyle4 {
+		line-height:13px;
+		height:13px;
+	}
+	#g-biden-policy-Artboard_1_copy_2 .g-cstyle0 {
+		font-weight:300;
+	}
+	#g-biden-policy-Artboard_1_copy_3 {
+		position:relative;
+		overflow:hidden;
+	}
+	#g-biden-policy-Artboard_1_copy_3 p {
+		font-family:EconSansCnd,EconSansCndSec,Arial Narrow,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,'sans-serif';
+		font-weight:400;
+		line-height:12px;
+		height:auto;
+		filter:alpha(opacity=100);
+		-ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+		opacity:1;
+		letter-spacing:0em;
+		font-size:13px;
+		text-align:left;
+		color:rgb(0,0,0);
+		text-transform:none;
+		padding-bottom:0;
+		padding-top:0;
+		mix-blend-mode:normal;
+		font-style:normal;
+		position:static;
+	}
+	#g-biden-policy-Artboard_1_copy_3 .g-pstyle0 {
+		font-family:EconSansLin,EconSansOS,EconSansOSSec,EconSans,EconSansSec,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,'sans-serif';
+		font-weight:700;
+		line-height:19px;
+		height:19px;
+		font-size:16px;
+	}
+	#g-biden-policy-Artboard_1_copy_3 .g-pstyle1 {
+		font-weight:300;
+		line-height:19px;
+		height:19px;
+		font-size:15px;
+	}
+	#g-biden-policy-Artboard_1_copy_3 .g-pstyle2 {
+		font-weight:300;
+		line-height:19px;
+		height:19px;
+		text-align:center;
+		color:rgb(40,35,29);
+	}
+	#g-biden-policy-Artboard_1_copy_3 .g-pstyle3 {
+		height:12px;
+	}
+	#g-biden-policy-Artboard_1_copy_3 .g-pstyle4 {
+		line-height:13px;
+		height:13px;
+	}
+	#g-biden-policy-Artboard_1_copy_3 .g-cstyle0 {
+		font-weight:300;
+	}
+
+	/* Custom CSS */
+	body {
+  padding: 0;
+}
