@@ -150,11 +150,12 @@ def fetchGraphic(link):
 def fetchSection(cl,docu):
     for i in docu.findAll(class_=cl):
         link = i.find('a').attrs['href']
-        if 'https' not in link:
-            link = "https://www.economist.com"+link
-        fetchArticle(link)
-        i.find('a').attrs['href'] = './html/'+link.split('/')[-1]+'.html'
-        time.sleep(2)
+        if 'why-russia-has-never-accepted-ukrainian-independence' not in link:
+            if 'https' not in link:
+                link = "https://www.economist.com"+link
+            fetchArticle(link)
+            i.find('a').attrs['href'] = './html/'+link.split('/')[-1]+'.html'
+            time.sleep(2)
         
 url = "https://www.economist.com/weeklyedition/"
 r = requests.get(url)
