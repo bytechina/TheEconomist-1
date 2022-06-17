@@ -147,7 +147,15 @@ def fetchGraphic(link):
     with open(htmlname,'w') as f:
         f.write(html)
     return
-
+def fetchSection(cl,docu):
+    for i in docu.findAll(class_=cl):
+        link = i.find('a').attrs['href']
+        if 'https' not in link:
+            link = "https://www.economist.com"+link
+        fetchArticle(link)
+        i.find('a').attrs['href'] = './html/'+link.split('/')[-1]+'.html'
+        time.sleep(2)
+        
 url = "https://www.economist.com/weeklyedition/"
 r = requests.get(url)
 doc = BeautifulSoup(r.content,features="lxml")
@@ -156,20 +164,11 @@ headerImgURL = docu.find(class_='weekly-edition-header__image').find('img').attr
 img = requests.get(headerImgURL).content
 with open('./image/cover.png',"wb") as f:
     f.write(img)
-for i in docu.findAll(class_='weekly-edition-wtw__item'):
-    link = i.find('a').attrs['href']
-    if 'https' not in link:
-        link = "https://www.economist.com"+link
-    fetchArticle(link)
-    i.find('a').attrs['href'] = './html/'+link.split('/')[-1]+'.html'
-    time.sleep(2)
-for i in docu.findAll(class_="headline-link"):
-    link = i.attrs['href']
-    if 'https' not in link:
-        link = "https://www.economist.com"+link
-    fetchArticle(link)
-    i.attrs['href'] = './html/'+link.split('/')[-1]+'.html'
-    time.sleep(2)
+fetchSection('weekly-edition-wtw__item',docu)
+fetchSection('teaser-weekly-edition--leaders',docu)
+fetchSection('teaser-weekly-edition--briefing',docu)
+fetchSection('teaser-weekly-edition--headline-only',docu)
+fetchSection('teaser-weekly-edition--cols',docu)
 for i in docu.findAll("img"):
     i.decompose()
 html = '<html lang="en"><meta name="viewport" content="width=device-width, initial-scale=1" /><head><!-- Global site tag (gtag.js) - Google Analytics --><script async src="https://www.googletagmanager.com/gtag/js?id=G-2VYEP6CXDE"></script><script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag("js", new Date());  gtag("config", "G-2VYEP6CXDE");</script><link rel="stylesheet" href="init1.css"><title>The Economist</title></head><body><img src="./image/cover.png">'+str(docu)+'</body></html>'
