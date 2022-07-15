@@ -1,0 +1,305 @@
+	body {
+
+		margin: 0 auto;
+
+		padding: 0 12px;
+	}
+	#g-20220716_GDC201-box ,
+	#g-20220716_GDC201-box .g-artboard {
+		margin:0 auto;
+	}
+	#g-20220716_GDC201-box p {
+		margin:0;
+	}
+	#g-20220716_GDC201-box .g-aiAbs {
+		position:absolute;
+	}
+	#g-20220716_GDC201-box .g-aiImg {
+		position:absolute;
+		top:0;
+		display:block;
+		width:100% !important;
+	}
+	#g-20220716_GDC201-box .g-aiSymbol {
+		position: absolute;
+		box-sizing: border-box;
+	}
+	#g-20220716_GDC201-box .g-aiPointText p { white-space: nowrap; }
+	#g-20220716_GDC201-Artboard_1_copy {
+		position:relative;
+		overflow:hidden;
+	}
+	#g-20220716_GDC201-Artboard_1_copy p {
+		font-family:EconSansCnd,EconSansCndSec,Arial Narrow,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,'sans-serif';
+		font-weight:300;
+		line-height:13px;
+		height:auto;
+		opacity:1;
+		letter-spacing:0em;
+		font-size:12px;
+		text-align:left;
+		color:rgb(98,97,96);
+		text-transform:none;
+		padding-bottom:0;
+		padding-top:0;
+		mix-blend-mode:normal;
+		font-style:normal;
+		position:static;
+	}
+	#g-20220716_GDC201-Artboard_1_copy .g-pstyle0 {
+		font-weight:500;
+		line-height:16px;
+		height:16px;
+		font-size:16px;
+		color:rgb(40,35,29);
+	}
+	#g-20220716_GDC201-Artboard_1_copy .g-pstyle1 {
+		font-weight:400;
+		line-height:17px;
+		height:17px;
+		font-size:14px;
+		text-align:right;
+		color:rgb(40,35,29);
+	}
+	#g-20220716_GDC201-Artboard_1_copy .g-pstyle2 {
+		line-height:17px;
+		height:17px;
+		font-size:14px;
+		text-align:right;
+		color:rgb(40,35,29);
+	}
+	#g-20220716_GDC201-Artboard_1_copy .g-pstyle3 {
+		font-weight:500;
+		line-height:17px;
+		height:17px;
+		font-size:14px;
+		text-align:right;
+		color:rgb(240,83,54);
+	}
+	#g-20220716_GDC201-Artboard_1_copy .g-pstyle4 {
+		font-weight:500;
+		line-height:17px;
+		height:17px;
+		font-size:14px;
+		color:rgb(114,112,98);
+	}
+	#g-20220716_GDC201-Artboard_1_copy .g-pstyle5 {
+		font-weight:400;
+		line-height:17px;
+		height:17px;
+		font-size:14px;
+		text-align:right;
+		color:rgb(255,255,255);
+	}
+	#g-20220716_GDC201-Artboard_1_copy .g-pstyle6 {
+		font-weight:400;
+		line-height:17px;
+		height:17px;
+		font-size:14px;
+		color:rgb(255,255,255);
+	}
+	#g-20220716_GDC201-Artboard_1_copy .g-pstyle7 {
+		line-height:17px;
+		height:17px;
+		font-size:14px;
+		text-align:center;
+		color:rgb(40,35,29);
+	}
+	#g-20220716_GDC201-Artboard_1_copy .g-pstyle8 {
+		font-weight:400;
+		line-height:17px;
+		height:17px;
+		font-size:14px;
+		text-align:center;
+		color:rgb(40,35,29);
+	}
+	#g-20220716_GDC201-Artboard_1_copy .g-pstyle9 {
+		height:13px;
+	}
+	#g-20220716_GDC201-Artboard_1_copy .g-cstyle0 {
+		font-weight:500;
+	}
+	#g-20220716_GDC201-Artboard_1_copy_2 {
+		position:relative;
+		overflow:hidden;
+	}
+	#g-20220716_GDC201-Artboard_1_copy_2 p {
+		font-family:EconSansCnd,EconSansCndSec,Arial Narrow,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,'sans-serif';
+		font-weight:300;
+		line-height:13px;
+		height:auto;
+		opacity:1;
+		letter-spacing:0em;
+		font-size:12px;
+		text-align:left;
+		color:rgb(98,97,96);
+		text-transform:none;
+		padding-bottom:0;
+		padding-top:0;
+		mix-blend-mode:normal;
+		font-style:normal;
+		position:static;
+	}
+	#g-20220716_GDC201-Artboard_1_copy_2 .g-pstyle0 {
+		font-weight:500;
+		line-height:16px;
+		height:16px;
+		font-size:16px;
+		color:rgb(40,35,29);
+	}
+	#g-20220716_GDC201-Artboard_1_copy_2 .g-pstyle1 {
+		font-weight:400;
+		line-height:17px;
+		height:17px;
+		font-size:14px;
+		text-align:right;
+		color:rgb(40,35,29);
+	}
+	#g-20220716_GDC201-Artboard_1_copy_2 .g-pstyle2 {
+		line-height:17px;
+		height:17px;
+		font-size:14px;
+		text-align:right;
+		color:rgb(40,35,29);
+	}
+	#g-20220716_GDC201-Artboard_1_copy_2 .g-pstyle3 {
+		font-weight:400;
+		line-height:17px;
+		height:17px;
+		font-size:14px;
+		text-align:right;
+		color:rgb(255,255,255);
+	}
+	#g-20220716_GDC201-Artboard_1_copy_2 .g-pstyle4 {
+		font-weight:400;
+		line-height:17px;
+		height:17px;
+		font-size:14px;
+		color:rgb(255,255,255);
+	}
+	#g-20220716_GDC201-Artboard_1_copy_2 .g-pstyle5 {
+		line-height:17px;
+		height:17px;
+		font-size:14px;
+		text-align:center;
+		color:rgb(40,35,29);
+	}
+	#g-20220716_GDC201-Artboard_1_copy_2 .g-pstyle6 {
+		height:13px;
+	}
+	#g-20220716_GDC201-Artboard_1_copy_2 .g-pstyle7 {
+		font-weight:500;
+		line-height:17px;
+		height:17px;
+		font-size:14px;
+		text-align:right;
+		color:rgb(240,83,54);
+	}
+	#g-20220716_GDC201-Artboard_1_copy_2 .g-pstyle8 {
+		font-weight:500;
+		line-height:17px;
+		height:17px;
+		font-size:14px;
+		color:rgb(114,112,98);
+	}
+	#g-20220716_GDC201-Artboard_1_copy_2 .g-pstyle9 {
+		font-weight:400;
+		line-height:17px;
+		height:17px;
+		font-size:14px;
+		text-align:center;
+		color:rgb(40,35,29);
+	}
+	#g-20220716_GDC201-Artboard_1_copy_2 .g-cstyle0 {
+		font-weight:500;
+	}
+	#g-20220716_GDC201-Artboard_1_copy_3 {
+		position:relative;
+		overflow:hidden;
+	}
+	#g-20220716_GDC201-Artboard_1_copy_3 p {
+		font-family:EconSansCnd,EconSansCndSec,Arial Narrow,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,'sans-serif';
+		font-weight:500;
+		line-height:16px;
+		height:auto;
+		opacity:1;
+		letter-spacing:0em;
+		font-size:16px;
+		text-align:left;
+		color:rgb(40,35,29);
+		text-transform:none;
+		padding-bottom:0;
+		padding-top:0;
+		mix-blend-mode:normal;
+		font-style:normal;
+		position:static;
+	}
+	#g-20220716_GDC201-Artboard_1_copy_3 .g-pstyle0 {
+		height:16px;
+	}
+	#g-20220716_GDC201-Artboard_1_copy_3 .g-pstyle1 {
+		font-weight:400;
+		line-height:17px;
+		height:17px;
+		font-size:14px;
+		text-align:right;
+	}
+	#g-20220716_GDC201-Artboard_1_copy_3 .g-pstyle2 {
+		font-weight:300;
+		line-height:17px;
+		height:17px;
+		font-size:14px;
+		text-align:right;
+	}
+	#g-20220716_GDC201-Artboard_1_copy_3 .g-pstyle3 {
+		font-weight:400;
+		line-height:17px;
+		height:17px;
+		font-size:14px;
+		text-align:right;
+		color:rgb(255,255,255);
+	}
+	#g-20220716_GDC201-Artboard_1_copy_3 .g-pstyle4 {
+		font-weight:400;
+		line-height:17px;
+		height:17px;
+		font-size:14px;
+		color:rgb(255,255,255);
+	}
+	#g-20220716_GDC201-Artboard_1_copy_3 .g-pstyle5 {
+		font-weight:300;
+		line-height:17px;
+		height:17px;
+		font-size:14px;
+		text-align:center;
+	}
+	#g-20220716_GDC201-Artboard_1_copy_3 .g-pstyle6 {
+		font-weight:300;
+		line-height:13px;
+		height:13px;
+		font-size:12px;
+		color:rgb(98,97,96);
+	}
+	#g-20220716_GDC201-Artboard_1_copy_3 .g-pstyle7 {
+		line-height:17px;
+		height:17px;
+		font-size:14px;
+		text-align:right;
+		color:rgb(240,83,54);
+	}
+	#g-20220716_GDC201-Artboard_1_copy_3 .g-pstyle8 {
+		line-height:17px;
+		height:17px;
+		font-size:14px;
+		color:rgb(114,112,98);
+	}
+	#g-20220716_GDC201-Artboard_1_copy_3 .g-pstyle9 {
+		font-weight:400;
+		line-height:17px;
+		height:17px;
+		font-size:14px;
+		text-align:center;
+	}
+	#g-20220716_GDC201-Artboard_1_copy_3 .g-cstyle0 {
+		font-weight:500;
+	}
