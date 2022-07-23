@@ -120,7 +120,12 @@ def fetchGraphic(link):
     for i in doc.findAll('iframe'):
         url = i.attrs['src']
         if 'https' not in url:
-            url = 'https://www.economist.com/'+url
+            if 'youtube' in url:
+                url = 'https:'+url
+            else:
+                url = 'https://www.economist.com/'+url
+        else:
+            pass
         fetchAI(url)
     for i in doc.find('section').findAll('style'):
         i.decompose()
