@@ -67,9 +67,19 @@ def fetchAI(url):
     r = requests.get(url)
     doc = BeautifulSoup(r.content,features="lxml")
     
+    if 'acast' in url:
+        return
+    
     # download background images in graphic-details
     for i in doc.findAll("img"):
-        url = i.attrs['src']
+        if i.has_attr('data-src'):
+            url = i.attrs['data-src']
+        else:
+            url = i.attrs['src']
+        if url[:2] == '//':
+            url = 'https:'+url
+        if 'ad' in url:
+            continue
         img = requests.get(url).content
         imgfile = './image/'+url.split('/')[-1]
         with open(imgfile,"wb") as f:
