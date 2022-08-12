@@ -69,7 +69,7 @@ def fetchAI(url):
     
     # download background images in graphic-details
     for i in doc.findAll("img"):
-        url = i.attrs['data-src']
+        url = i.attrs['src']
         img = requests.get(url).content
         imgfile = './image/'+url.split('/')[-1]
         with open(imgfile,"wb") as f:
