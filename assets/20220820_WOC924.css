@@ -1,0 +1,513 @@
+	body {
+
+		margin: 0 auto;
+	}
+	#g-20220820_WOC924-box ,
+	#g-20220820_WOC924-box .g-artboard {
+		margin:0 auto;
+	}
+	#g-20220820_WOC924-box p {
+		margin:0;
+	}
+	#g-20220820_WOC924-box .g-aiAbs {
+		position:absolute;
+	}
+	#g-20220820_WOC924-box .g-aiImg {
+		position:absolute;
+		top:0;
+		display:block;
+		width:100% !important;
+	}
+	#g-20220820_WOC924-box .g-aiSymbol {
+		position: absolute;
+		box-sizing: border-box;
+	}
+	#g-20220820_WOC924-box .g-aiPointText p { white-space: nowrap; }
+	#g-20220820_WOC924-Artboard_1-700 {
+		position:relative;
+		overflow:hidden;
+	}
+	#g-20220820_WOC924-Artboard_1-700 p {
+		font-family:EconSansCnd,EconSansCndSec,Arial Narrow,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,'sans-serif';
+		font-weight:500;
+		line-height:18px;
+		height:auto;
+		opacity:1;
+		letter-spacing:0em;
+		font-size:15px;
+		text-align:left;
+		color:rgb(0,0,0);
+		text-transform:none;
+		padding-bottom:0;
+		padding-top:0;
+		mix-blend-mode:normal;
+		font-style:normal;
+		position:static;
+	}
+	#g-20220820_WOC924-Artboard_1-700 .g-pstyle0 {
+		font-family:EconSansLin,EconSansOS,EconSansOSSec,EconSans,EconSansSec,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,'sans-serif';
+		font-weight:700;
+		line-height:20px;
+		height:20px;
+		letter-spacing:0.005em;
+		font-size:16px;
+	}
+	#g-20220820_WOC924-Artboard_1-700 .g-pstyle1 {
+		font-weight:400;
+		height:18px;
+		font-size:16px;
+	}
+	#g-20220820_WOC924-Artboard_1-700 .g-pstyle2 {
+		height:18px;
+	}
+	#g-20220820_WOC924-Artboard_1-700 .g-pstyle3 {
+		font-weight:300;
+		line-height:16px;
+		height:16px;
+		letter-spacing:0.05em;
+		font-size:13px;
+		color:rgb(128,128,128);
+	}
+	#g-20220820_WOC924-Artboard_1-700 .g-pstyle4 {
+		font-weight:300;
+		line-height:9px;
+		height:9px;
+		font-size:14px;
+		text-align:right;
+	}
+	#g-20220820_WOC924-Artboard_1-700 .g-pstyle5 {
+		font-weight:300;
+		line-height:9px;
+		height:9px;
+		letter-spacing:0.3em;
+		font-size:14px;
+		text-align:right;
+		color:rgb(128,128,128);
+	}
+	#g-20220820_WOC924-Artboard_1-700 .g-pstyle6 {
+		font-weight:400;
+		line-height:13px;
+		height:13px;
+		letter-spacing:0.05em;
+		font-size:11px;
+		color:rgb(255,255,255);
+	}
+	#g-20220820_WOC924-Artboard_1-700 .g-pstyle7 {
+		font-weight:400;
+		line-height:13px;
+		height:13px;
+		letter-spacing:0.05em;
+		font-size:11px;
+	}
+	#g-20220820_WOC924-Artboard_1-700 .g-pstyle8 {
+		font-weight:300;
+		line-height:9px;
+		height:9px;
+		font-size:14px;
+		text-align:right;
+		color:rgb(30,92,153);
+	}
+	#g-20220820_WOC924-Artboard_1-700 .g-pstyle9 {
+		line-height:26px;
+		height:26px;
+		font-size:14px;
+		color:rgb(255,255,255);
+	}
+	#g-20220820_WOC924-Artboard_1-700 .g-pstyle10 {
+		font-weight:400;
+		line-height:26px;
+		height:26px;
+		font-size:14px;
+	}
+	#g-20220820_WOC924-Artboard_1-700 .g-pstyle11 {
+		font-style:italic;
+		line-height:13px;
+		height:13px;
+		font-size:14px;
+		color:rgb(30,92,153);
+	}
+	#g-20220820_WOC924-Artboard_1-700 .g-pstyle12 {
+		font-weight:400;
+		line-height:9px;
+		height:9px;
+		font-size:14px;
+		text-align:right;
+		color:rgb(227,18,11);
+	}
+	#g-20220820_WOC924-Artboard_1-700 .g-pstyle13 {
+		font-weight:400;
+		line-height:13px;
+		height:13px;
+		letter-spacing:0.05em;
+		font-size:11px;
+		text-align:center;
+	}
+	#g-20220820_WOC924-Artboard_1-700 .g-pstyle14 {
+		font-weight:300;
+		line-height:26px;
+		height:26px;
+		font-size:14px;
+	}
+	#g-20220820_WOC924-Artboard_1-700 .g-pstyle15 {
+		font-weight:300;
+		line-height:17px;
+		height:17px;
+		font-size:14px;
+	}
+	#g-20220820_WOC924-Artboard_1-700 .g-pstyle16 {
+		font-weight:300;
+		line-height:13px;
+		height:13px;
+		font-size:14px;
+	}
+	#g-20220820_WOC924-Artboard_1-700 .g-pstyle17 {
+		font-weight:300;
+		line-height:13px;
+		height:13px;
+		letter-spacing:0.05em;
+		font-size:11px;
+		color:rgb(118,114,94);
+	}
+	#g-20220820_WOC924-Artboard_1-700 .g-pstyle18 {
+		font-weight:300;
+		line-height:9px;
+		height:9px;
+		font-size:14px;
+		text-align:center;
+	}
+	#g-20220820_WOC924-Artboard_1-700 .g-pstyle19 {
+		font-weight:300;
+		height:18px;
+		font-size:13px;
+		text-align:right;
+		color:rgb(128,128,128);
+	}
+	#g-20220820_WOC924-Artboard_1-700 .g-pstyle20 {
+		font-weight:300;
+		height:18px;
+		font-size:13px;
+		color:rgb(128,128,128);
+	}
+	#g-20220820_WOC924-Artboard_1-590 {
+		position:relative;
+		overflow:hidden;
+	}
+	#g-20220820_WOC924-Artboard_1-590 p {
+		font-family:EconSansCnd,EconSansCndSec,Arial Narrow,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,'sans-serif';
+		font-weight:300;
+		line-height:18px;
+		height:auto;
+		opacity:1;
+		letter-spacing:0em;
+		font-size:13px;
+		text-align:left;
+		color:rgb(128,128,128);
+		text-transform:none;
+		padding-bottom:0;
+		padding-top:0;
+		mix-blend-mode:normal;
+		font-style:normal;
+		position:static;
+	}
+	#g-20220820_WOC924-Artboard_1-590 .g-pstyle0 {
+		font-family:EconSansLin,EconSansOS,EconSansOSSec,EconSans,EconSansSec,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,'sans-serif';
+		font-weight:700;
+		line-height:20px;
+		height:20px;
+		letter-spacing:0.005em;
+		font-size:16px;
+		color:rgb(0,0,0);
+	}
+	#g-20220820_WOC924-Artboard_1-590 .g-pstyle1 {
+		font-weight:400;
+		height:18px;
+		font-size:16px;
+		color:rgb(0,0,0);
+	}
+	#g-20220820_WOC924-Artboard_1-590 .g-pstyle2 {
+		font-weight:500;
+		height:18px;
+		font-size:15px;
+		color:rgb(0,0,0);
+	}
+	#g-20220820_WOC924-Artboard_1-590 .g-pstyle3 {
+		line-height:13px;
+		height:13px;
+		letter-spacing:0.05em;
+		font-size:11px;
+	}
+	#g-20220820_WOC924-Artboard_1-590 .g-pstyle4 {
+		line-height:9px;
+		height:9px;
+		font-size:14px;
+		text-align:right;
+		color:rgb(0,0,0);
+	}
+	#g-20220820_WOC924-Artboard_1-590 .g-pstyle5 {
+		line-height:9px;
+		height:9px;
+		letter-spacing:0.3em;
+		font-size:14px;
+		text-align:right;
+	}
+	#g-20220820_WOC924-Artboard_1-590 .g-pstyle6 {
+		font-weight:400;
+		line-height:13px;
+		height:13px;
+		letter-spacing:0.05em;
+		font-size:11px;
+		color:rgb(255,255,255);
+	}
+	#g-20220820_WOC924-Artboard_1-590 .g-pstyle7 {
+		font-weight:400;
+		line-height:13px;
+		height:13px;
+		letter-spacing:0.05em;
+		font-size:11px;
+		color:rgb(0,0,0);
+	}
+	#g-20220820_WOC924-Artboard_1-590 .g-pstyle8 {
+		line-height:9px;
+		height:9px;
+		font-size:14px;
+		text-align:right;
+		color:rgb(30,92,153);
+	}
+	#g-20220820_WOC924-Artboard_1-590 .g-pstyle9 {
+		font-weight:500;
+		line-height:22px;
+		height:22px;
+		font-size:14px;
+		color:rgb(255,255,255);
+	}
+	#g-20220820_WOC924-Artboard_1-590 .g-pstyle10 {
+		font-weight:400;
+		line-height:22px;
+		height:22px;
+		font-size:14px;
+		color:rgb(0,0,0);
+	}
+	#g-20220820_WOC924-Artboard_1-590 .g-pstyle11 {
+		font-weight:500;
+		font-style:italic;
+		line-height:16px;
+		height:16px;
+		font-size:14px;
+		color:rgb(30,92,153);
+	}
+	#g-20220820_WOC924-Artboard_1-590 .g-pstyle12 {
+		font-weight:400;
+		line-height:9px;
+		height:9px;
+		font-size:14px;
+		text-align:right;
+		color:rgb(227,18,11);
+	}
+	#g-20220820_WOC924-Artboard_1-590 .g-pstyle13 {
+		font-weight:400;
+		line-height:13px;
+		height:13px;
+		letter-spacing:0.05em;
+		font-size:11px;
+		text-align:center;
+		color:rgb(0,0,0);
+	}
+	#g-20220820_WOC924-Artboard_1-590 .g-pstyle14 {
+		line-height:26px;
+		height:26px;
+		font-size:14px;
+		color:rgb(0,0,0);
+	}
+	#g-20220820_WOC924-Artboard_1-590 .g-pstyle15 {
+		line-height:17px;
+		height:17px;
+		font-size:14px;
+		color:rgb(0,0,0);
+	}
+	#g-20220820_WOC924-Artboard_1-590 .g-pstyle16 {
+		line-height:16px;
+		height:16px;
+		font-size:14px;
+		color:rgb(0,0,0);
+	}
+	#g-20220820_WOC924-Artboard_1-590 .g-pstyle17 {
+		line-height:13px;
+		height:13px;
+		letter-spacing:0.05em;
+		font-size:11px;
+		color:rgb(118,114,94);
+	}
+	#g-20220820_WOC924-Artboard_1-590 .g-pstyle18 {
+		line-height:9px;
+		height:9px;
+		font-size:14px;
+		text-align:center;
+		color:rgb(0,0,0);
+	}
+	#g-20220820_WOC924-Artboard_1-590 .g-pstyle19 {
+		height:18px;
+	}
+	#g-20220820_WOC924-Artboard_1-336 {
+		position:relative;
+		overflow:hidden;
+	}
+	#g-20220820_WOC924-Artboard_1-336 p {
+		font-family:EconSansCnd,EconSansCndSec,Arial Narrow,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,'sans-serif';
+		font-weight:300;
+		line-height:18px;
+		height:auto;
+		opacity:1;
+		letter-spacing:0em;
+		font-size:13px;
+		text-align:left;
+		color:rgb(128,128,128);
+		text-transform:none;
+		padding-bottom:0;
+		padding-top:0;
+		mix-blend-mode:normal;
+		font-style:normal;
+		position:static;
+	}
+	#g-20220820_WOC924-Artboard_1-336 .g-pstyle0 {
+		font-family:EconSansLin,EconSansOS,EconSansOSSec,EconSans,EconSansSec,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,'sans-serif';
+		font-weight:700;
+		line-height:20px;
+		height:20px;
+		letter-spacing:0.005em;
+		font-size:16px;
+		color:rgb(0,0,0);
+	}
+	#g-20220820_WOC924-Artboard_1-336 .g-pstyle1 {
+		font-weight:400;
+		height:18px;
+		font-size:16px;
+		color:rgb(0,0,0);
+	}
+	#g-20220820_WOC924-Artboard_1-336 .g-pstyle2 {
+		font-weight:500;
+		height:18px;
+		font-size:15px;
+		color:rgb(0,0,0);
+	}
+	#g-20220820_WOC924-Artboard_1-336 .g-pstyle3 {
+		line-height:9px;
+		height:9px;
+		font-size:14px;
+		text-align:right;
+		color:rgb(0,0,0);
+	}
+	#g-20220820_WOC924-Artboard_1-336 .g-pstyle4 {
+		line-height:9px;
+		height:9px;
+		letter-spacing:0.3em;
+		font-size:14px;
+		text-align:right;
+	}
+	#g-20220820_WOC924-Artboard_1-336 .g-pstyle5 {
+		line-height:9px;
+		height:9px;
+		font-size:14px;
+		text-align:right;
+		color:rgb(30,92,153);
+	}
+	#g-20220820_WOC924-Artboard_1-336 .g-pstyle6 {
+		font-weight:400;
+		line-height:9px;
+		height:9px;
+		font-size:14px;
+		text-align:right;
+		color:rgb(227,18,11);
+	}
+	#g-20220820_WOC924-Artboard_1-336 .g-pstyle7 {
+		line-height:9px;
+		height:9px;
+		font-size:14px;
+		text-align:center;
+		color:rgb(0,0,0);
+	}
+	#g-20220820_WOC924-Artboard_1-336 .g-pstyle8 {
+		line-height:16px;
+		height:16px;
+		letter-spacing:0.05em;
+	}
+	#g-20220820_WOC924-Artboard_1-336 .g-pstyle9 {
+		font-weight:400;
+		line-height:14px;
+		height:14px;
+		letter-spacing:0.05em;
+		font-size:12px;
+		color:rgb(255,255,255);
+	}
+	#g-20220820_WOC924-Artboard_1-336 .g-pstyle10 {
+		font-weight:400;
+		line-height:14px;
+		height:14px;
+		letter-spacing:0.05em;
+		font-size:12px;
+		color:rgb(0,0,0);
+	}
+	#g-20220820_WOC924-Artboard_1-336 .g-pstyle11 {
+		font-weight:500;
+		line-height:27px;
+		height:27px;
+		font-size:14px;
+		color:rgb(255,255,255);
+	}
+	#g-20220820_WOC924-Artboard_1-336 .g-pstyle12 {
+		font-weight:400;
+		line-height:27px;
+		height:27px;
+		font-size:14px;
+		color:rgb(0,0,0);
+	}
+	#g-20220820_WOC924-Artboard_1-336 .g-pstyle13 {
+		font-weight:500;
+		font-style:italic;
+		line-height:13px;
+		height:13px;
+		font-size:14px;
+		color:rgb(30,92,153);
+	}
+	#g-20220820_WOC924-Artboard_1-336 .g-pstyle14 {
+		font-weight:400;
+		line-height:14px;
+		height:14px;
+		letter-spacing:0.05em;
+		font-size:12px;
+		text-align:center;
+		color:rgb(0,0,0);
+	}
+	#g-20220820_WOC924-Artboard_1-336 .g-pstyle15 {
+		line-height:26px;
+		height:26px;
+		font-size:14px;
+		color:rgb(0,0,0);
+	}
+	#g-20220820_WOC924-Artboard_1-336 .g-pstyle16 {
+		line-height:17px;
+		height:17px;
+		font-size:14px;
+		color:rgb(0,0,0);
+	}
+	#g-20220820_WOC924-Artboard_1-336 .g-pstyle17 {
+		line-height:13px;
+		height:13px;
+		font-size:14px;
+		color:rgb(0,0,0);
+	}
+	#g-20220820_WOC924-Artboard_1-336 .g-pstyle18 {
+		line-height:14px;
+		height:14px;
+		letter-spacing:0.05em;
+		font-size:12px;
+		color:rgb(118,114,94);
+	}
+	#g-20220820_WOC924-Artboard_1-336 .g-pstyle19 {
+		height:18px;
+	}
+
+	/* Custom CSS */
+	body {
+  max-width: 700px;
+  margin: 0;
+}
