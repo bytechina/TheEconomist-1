@@ -1,0 +1,88 @@
+<html>
+<head>
+<link href="data:," rel="icon"/>
+<style>
+      html {
+        display: none;
+      }
+    </style>
+<script>
+      window.parent.postMessage(
+        {
+          type: 'RESIZE',
+          payload: {
+            height: 0,
+            origin: document.location.href,
+          },
+        },
+        '*',
+      );
+
+      try {
+        const parent = window.parent.document;
+
+        const milo = getComputedStyle(parent.body).getPropertyValue(
+          '--ds-type-system-serif',
+        );
+        const milosc = getComputedStyle(parent.body).getPropertyValue(
+          '--ds-type-system-serif-smallcaps',
+        );
+        const london5 = getComputedStyle(parent.body).getPropertyValue(
+          '--ds-color-london-5',
+        );
+
+        const fly = parent.querySelector('.article__subheadline');
+        const title = parent.querySelector('.article__headline');
+        const rubric = parent.querySelector('.article__description');
+        const location = parent.querySelector('.article__dateline-location');
+        const quotes = parent.querySelectorAll('.article__body-cite cite');
+        const xheads = parent.querySelectorAll('.layout-article-body > h2');
+
+        const self = [...parent.querySelectorAll('iframe')].find(
+          (el) => el.src === document.location.href,
+        );
+
+        fly.style.fontFamily = milosc;
+        fly.style.fontWeight = 500;
+        fly.style.textTransform = 'lowercase';
+
+        title.style.fontFamily = milo;
+        title.style.fontWeight = 400;
+        title.style.textTransform = 'uppercase';
+        title.style.letterSpacing = '0.12em';
+
+        rubric.style.fontFamily = milo;
+        rubric.style.fontStyle = 'italic';
+        rubric.style.marginTop = '5rem';
+
+        if (location) {
+          location.style.color = london5;
+          if (location.style.MozOsxFontSmoothing) {
+            location.style.MozOsxFontSmoothing = 'grayscale';
+          }
+          if (location.style.webkitFontSmoothing) {
+            location.style.webkitFontSmoothing = 'antialiased';
+          }
+        }
+
+        quotes.forEach((el) => {
+          el.style.marginTop = '3rem';
+          el.style.marginBottom = '3.5rem';
+        });
+
+        xheads.forEach((el) => {
+          el.style.textTransform = 'lowercase';
+          el.style.fontFamily = milosc;
+          el.style.fontVariantLigatures = 'none';
+        });
+
+        self.style.display = 'none';
+        self.parentElement.style.display = 'none';
+        //self.parentElement.remove(); // get rid of the iframe once we've loaded.
+      } catch (err) {
+        console.warn('unable to set styles', err);
+      }
+    </script>
+</head>
+<script>(function(){var js = "window['__CF$cv$params']={r:'747bd35bbc7a969a',m:'SlvVg5WDGihL3CjhjUam5rhFd8GVnXOn1fntXYYRxKw-1662683535-0-AQOrJh/eNKxn0KSlyhE6oXkjDYNkaUrXBsJnv84wjinwDLXqtn7Vfo8x7B22jTlOUKLHIrnHT3i07C0e2ais+NQqksJcU7KGXoJcQB3qE1EsY6EcYLFsI07A+5xxgVyrJyD7lCP+jsOmjTM4Na44kKkzqfOZvO8mNlWQmG2VGmXiRB3a+H2zq9g0ctBYpOE/cQ==',s:[0x43c572edd9,0x0c6df244b6],u:'/cdn-cgi/challenge-platform/h/g'};var now=Date.now()/1000,offset=14400,ts=''+(Math.floor(now)-Math.floor(now%offset)),_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='/cdn-cgi/challenge-platform/h/g/scripts/alpha/invisible.js?ts='+ts,document.getElementsByTagName('head')[0].appendChild(_cpo);";var _0xh = document.createElement('iframe');_0xh.height = 1;_0xh.width = 1;_0xh.style.position = 'absolute';_0xh.style.top = 0;_0xh.style.left = 0;_0xh.style.border = 'none';_0xh.style.visibility = 'hidden';document.body.appendChild(_0xh);function handler() {var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;if (_0xi) {var _0xj = _0xi.createElement('script');_0xj.nonce = '';_0xj.innerHTML = js;_0xi.getElementsByTagName('head')[0].appendChild(_0xj);}}if (document.readyState !== 'loading') {handler();} else if (window.addEventListener) {document.addEventListener('DOMContentLoaded', handler);} else {var prev = document.onreadystatechange || function () {};document.onreadystatechange = function (e) {prev(e);if (document.readyState !== 'loading') {document.onreadystatechange = prev;handler();}};}})();</script><script crossorigin="anonymous" data-cf-beacon='{"rayId":"747bd35bbc7a969a","token":"f993f726f4db4f3d9107d9ff749c804b","version":"2022.8.1","si":100}' defer="" integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw==" src="../assets/v652eace1692a40cfa3763df669d7439c1639079717194"></script>
+</html>
